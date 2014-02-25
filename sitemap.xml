@@ -1,16 +1,20 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <urlset xmlns='http://www.sitemaps.org/schemas/sitemap/0.9'>
     <url>
+        <loc>http://ryantmer.github.io/blog/2010/04/01/diary-of-a-polyphasic-sleeper/</loc>
+        <lastmod>2014-02-25T18:44:56-05:00</lastmod>
+    </url>
+    <url>
         <loc>http://ryantmer.github.io/blog/2014/02/25/hello-octopress-world/</loc>
         <lastmod>2014-02-25T18:34:07-05:00</lastmod>
     </url>
     <url>
         <loc>http://ryantmer.github.io/blog/archives/</loc>
-        <lastmod>2014-02-25T18:34:07-05:00</lastmod>
+        <lastmod>2014-02-25T18:44:56-05:00</lastmod>
     </url>
     <url>
         <loc>http://ryantmer.github.io/</loc>
-        <lastmod>2014-02-25T18:34:07-05:00</lastmod>
+        <lastmod>2014-02-25T18:44:56-05:00</lastmod>
     </url>
     <url>
         <loc>http://ryantmer.github.io/robots.txt</loc>

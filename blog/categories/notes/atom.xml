@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Ryan Mahler]]></title>
-  <link href="http://ryantmer.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Notes | Ryan Mahler]]></title>
+  <link href="http://ryantmer.github.io/blog/categories/notes/atom.xml" rel="self"/>
   <link href="http://ryantmer.github.io/"/>
   <updated>2014-02-25T18:45:09-05:00</updated>
   <id>http://ryantmer.github.io/</id>
@@ -12,15 +12,6 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
-  
-  <entry>
-    <title type="html"><![CDATA[Hello (Octopress) World!]]></title>
-    <link href="http://ryantmer.github.io/blog/2014/02/25/hello-octopress-world/"/>
-    <updated>2014-02-25T18:17:36-05:00</updated>
-    <id>http://ryantmer.github.io/blog/2014/02/25/hello-octopress-world</id>
-    <content type="html"><![CDATA[<p>In my effort to constantly be changing my site, it&rsquo;s now using <a href="http://octopress.org" title="Octopress site">Octopress</a>. Thanks to <a href="http://olivercardoza.com" title="Oliver Cardoza's site">Oliver Cardoza</a> for the tip!</p>
-]]></content>
-  </entry>
   
   <entry>
     <title type="html"><![CDATA[Diary of a Polyphasic Sleeper, Part I - Der Anfang]]></title>
