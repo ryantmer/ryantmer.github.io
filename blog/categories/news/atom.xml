@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Ryan Mahler]]></title>
-  <link href="http://ryantmer.github.io/atom.xml" rel="self"/>
+  <title><![CDATA[Category: News | Ryan Mahler]]></title>
+  <link href="http://ryantmer.github.io/blog/categories/news/atom.xml" rel="self"/>
   <link href="http://ryantmer.github.io/"/>
   <updated>2014-02-25T18:34:54-05:00</updated>
   <id>http://ryantmer.github.io/</id>
