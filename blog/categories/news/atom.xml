@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: News | Ryan Mahler]]></title>
-  <link href="http://ryantmer.github.io/blog/categories/news/atom.xml" rel="self"/>
-  <link href="http://ryantmer.github.io/"/>
-  <updated>2014-02-25T18:45:09-05:00</updated>
-  <id>http://ryantmer.github.io/</id>
+  <link href="http://ryantmer.com/blog/categories/news/atom.xml" rel="self"/>
+  <link href="http://ryantmer.com/"/>
+  <updated>2014-02-25T19:06:25-05:00</updated>
+  <id>http://ryantmer.com/</id>
   <author>
     <name><![CDATA[Ryan Mahler]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Hello (Octopress) World!]]></title>
-    <link href="http://ryantmer.github.io/blog/2014/02/25/hello-octopress-world/"/>
+    <link href="http://ryantmer.com/blog/2014/02/25/hello-octopress-world/"/>
     <updated>2014-02-25T18:17:36-05:00</updated>
-    <id>http://ryantmer.github.io/blog/2014/02/25/hello-octopress-world</id>
+    <id>http://ryantmer.com/blog/2014/02/25/hello-octopress-world</id>
     <content type="html"><![CDATA[<p>In my effort to constantly be changing my site, it&rsquo;s now using <a href="http://octopress.org" title="Octopress site">Octopress</a>. Thanks to <a href="http://olivercardoza.com" title="Oliver Cardoza's site">Oliver Cardoza</a> for the tip!</p>
 ]]></content>
   </entry>

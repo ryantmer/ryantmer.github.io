@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Ryan Mahler]]></title>
-  <link href="http://ryantmer.github.io/atom.xml" rel="self"/>
-  <link href="http://ryantmer.github.io/"/>
-  <updated>2014-02-25T18:45:09-05:00</updated>
-  <id>http://ryantmer.github.io/</id>
+  <link href="http://ryantmer.com/atom.xml" rel="self"/>
+  <link href="http://ryantmer.com/"/>
+  <updated>2014-02-25T19:06:25-05:00</updated>
+  <id>http://ryantmer.com/</id>
   <author>
     <name><![CDATA[Ryan Mahler]]></name>
     
@@ -15,18 +15,18 @@
   
   <entry>
     <title type="html"><![CDATA[Hello (Octopress) World!]]></title>
-    <link href="http://ryantmer.github.io/blog/2014/02/25/hello-octopress-world/"/>
+    <link href="http://ryantmer.com/blog/2014/02/25/hello-octopress-world/"/>
     <updated>2014-02-25T18:17:36-05:00</updated>
-    <id>http://ryantmer.github.io/blog/2014/02/25/hello-octopress-world</id>
+    <id>http://ryantmer.com/blog/2014/02/25/hello-octopress-world</id>
     <content type="html"><![CDATA[<p>In my effort to constantly be changing my site, it&rsquo;s now using <a href="http://octopress.org" title="Octopress site">Octopress</a>. Thanks to <a href="http://olivercardoza.com" title="Oliver Cardoza's site">Oliver Cardoza</a> for the tip!</p>
 ]]></content>
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Diary of a Polyphasic Sleeper, Part I - Der Anfang]]></title>
-    <link href="http://ryantmer.github.io/blog/2010/04/01/diary-of-a-polyphasic-sleeper/"/>
+    <link href="http://ryantmer.com/blog/2010/04/01/diary-of-a-polyphasic-sleeper/"/>
     <updated>2010-04-01T23:59:13-04:00</updated>
-    <id>http://ryantmer.github.io/blog/2010/04/01/diary-of-a-polyphasic-sleeper</id>
+    <id>http://ryantmer.com/blog/2010/04/01/diary-of-a-polyphasic-sleeper</id>
     <content type="html"><![CDATA[<p>So, this note is written for nobody in particular. More just a reference.</p>
 
 <p>As several people are aware, I have been sleeping polyphasically recently. For those unaware of the meaning of polyphasic, it simply means that you sleep in installments throughout the day, as opposed to once per 24-hour cycle. For example, there is a polyphasic sleep schedule called the &ldquo;Uberman&rdquo; schedule, wherein the individual takes six 20-minute naps in a 24-hour period. Yup, two hours of sleep every 24 hours. I am not an &ldquo;Uber man&rdquo;, though, so I opted for a simpler one.</p>
