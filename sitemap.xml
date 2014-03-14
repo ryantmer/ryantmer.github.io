@@ -5,8 +5,24 @@
         <lastmod>2014-03-14T19:24:52-04:00</lastmod>
     </url>
     <url>
+        <loc>http://ryantmer.com/blog/2010/04/01/best-of-interwebz/</loc>
+        <lastmod>2014-03-14T19:48:20-04:00</lastmod>
+    </url>
+    <url>
         <loc>http://ryantmer.com/blog/2010/04/01/diary-of-a-polyphasic-sleeper/</loc>
         <lastmod>2014-02-25T18:44:56-05:00</lastmod>
+    </url>
+    <url>
+        <loc>http://ryantmer.com/blog/2010/04/03/bad-drivers/</loc>
+        <lastmod>2014-03-14T19:49:23-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://ryantmer.com/blog/2010/04/13/movie-stubs/</loc>
+        <lastmod>2014-03-14T19:50:14-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://ryantmer.com/blog/2010/04/18/vsromophas-requiem-for-a-dream-2000/</loc>
+        <lastmod>2014-03-14T19:54:17-04:00</lastmod>
     </url>
     <url>
         <loc>http://ryantmer.com/blog/2014/02/25/hello-octopress-world/</loc>
@@ -14,11 +30,11 @@
     </url>
     <url>
         <loc>http://ryantmer.com/blog/archives/</loc>
-        <lastmod>2014-03-14T19:24:52-04:00</lastmod>
+        <lastmod>2014-03-14T19:54:17-04:00</lastmod>
     </url>
     <url>
         <loc>http://ryantmer.com/</loc>
-        <lastmod>2014-03-14T19:24:52-04:00</lastmod>
+        <lastmod>2014-03-14T19:54:17-04:00</lastmod>
     </url>
     <url>
         <loc>http://ryantmer.com/robots.txt</loc>
@@ -27,5 +43,9 @@
     <url>
         <loc>http://ryantmer.com/photos/</loc>
         <lastmod>2014-03-14T19:36:07-04:00</lastmod>
+    </url>
+    <url>
+        <loc>http://ryantmer.com/about/</loc>
+        <lastmod>2014-03-14T19:39:18-04:00</lastmod>
     </url>
 </urlset>

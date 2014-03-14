@@ -4,7 +4,7 @@
   <title><![CDATA[Category: News | Ryan Mahler]]></title>
   <link href="http://ryantmer.com/blog/categories/news/atom.xml" rel="self"/>
   <link href="http://ryantmer.com/"/>
-  <updated>2014-03-14T19:38:03-04:00</updated>
+  <updated>2014-03-14T19:54:25-04:00</updated>
   <id>http://ryantmer.com/</id>
   <author>
     <name><![CDATA[Ryan Mahler]]></name>
@@ -19,6 +19,17 @@
     <updated>2014-02-25T18:17:36-05:00</updated>
     <id>http://ryantmer.com/blog/2014/02/25/hello-octopress-world</id>
     <content type="html"><![CDATA[<p>In my effort to constantly be changing my site, it&rsquo;s now using <a href="http://octopress.org" title="Octopress site">Octopress</a>. Thanks to <a href="http://olivercardoza.com" title="Oliver Cardoza's site">Oliver Cardoza</a> for the tip!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Bad Drivers]]></title>
+    <link href="http://ryantmer.com/blog/2010/04/03/bad-drivers/"/>
+    <updated>2010-04-03T21:21:10-04:00</updated>
+    <id>http://ryantmer.com/blog/2010/04/03/bad-drivers</id>
+    <content type="html"><![CDATA[<p>In a sorely misguided attempt to make the world a better place, I&rsquo;ve added a bad drivers database. Here, you can add info about any sort of terrible instances of driving you happen upon (in Yellowknife, I observe these types of events several times a day). In theory, people seeing a description of their car and how much of a moron they are online will help them become a better driver. In reality, this is just another way for me (and others) to take out aggression through the wonderful anonymity that the internet provides. Everybody wins!</p>
+
+<p>I, for one, will be keeping a notepad and pen in my car from now on&hellip;</p>
 ]]></content>
   </entry>
   
