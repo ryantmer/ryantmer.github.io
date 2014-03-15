@@ -4,7 +4,7 @@
   <title><![CDATA[Category: News | Ryan Mahler]]></title>
   <link href="http://ryantmer.com/blog/categories/news/atom.xml" rel="self"/>
   <link href="http://ryantmer.com/"/>
-  <updated>2014-03-14T20:10:16-04:00</updated>
+  <updated>2014-03-14T20:41:07-04:00</updated>
   <id>http://ryantmer.com/</id>
   <author>
     <name><![CDATA[Ryan Mahler]]></name>
@@ -19,6 +19,15 @@
     <updated>2014-02-25T18:17:36-05:00</updated>
     <id>http://ryantmer.com/blog/2014/02/25/hello-octopress-world</id>
     <content type="html"><![CDATA[<p>In my effort to constantly be changing my site, it&rsquo;s now using <a href="http://octopress.org" title="Octopress site">Octopress</a>. Thanks to <a href="http://olivercardoza.com" title="Oliver Cardoza's site">Oliver Cardoza</a> for the tip!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Moar Pictures]]></title>
+    <link href="http://ryantmer.com/blog/2010/09/26/moar-pictures/"/>
+    <updated>2010-09-26T20:39:58-04:00</updated>
+    <id>http://ryantmer.com/blog/2010/09/26/moar-pictures</id>
+    <content type="html"><![CDATA[<p>See title. Check the photos page. I&rsquo;m too lazy to link to it. It&rsquo;s on the right, unless I moved it. Which I didn&rsquo;t. So it&rsquo;s on the right.</p>
 ]]></content>
   </entry>
   
