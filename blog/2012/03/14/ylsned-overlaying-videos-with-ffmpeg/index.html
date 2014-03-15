@@ -1,0 +1,231 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>You Learn Something New Every Day - Overlaying Videos With Ffmpeg - Ryan Mahler</title>
+  <meta name="author" content="Ryan Mahler">
+
+  
+  <meta name="description" content="ffmpeg (http://ffmpeg.org/) is, without a doubt, the best video conversion tool available. Got something preferred? You&rsquo;re either wrong, or ( &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://ryantmer.com/blog/2012/03/14/ylsned-overlaying-videos-with-ffmpeg">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="/atom.xml" rel="alternate" title="Ryan Mahler" type="application/atom+xml">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+  <script>!window.jQuery && document.write(unescape('%3Cscript src="./javascripts/libs/jquery.min.js"%3E%3C/script%3E'))</script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+
+  
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Ryan Mahler</a></h1>
+  
+    <h2>photographies, technologies, and anomalies</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss">
+  <li><a href="/atom.xml" rel="subscribe-rss" title="subscribe via RSS">RSS</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:ryantmer.com" />
+    <input class="search" type="text" name="q" results="0" placeholder="Search"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/blog/archives">Archives</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">You Learn Something New Every Day - Overlaying Videos With Ffmpeg</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-03-14T14:22:43-04:00" pubdate data-updated="true">Mar 14<span>th</span>, 2012</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>ffmpeg (<a href="http://ffmpeg.org/">http://ffmpeg.org/</a>) is, without a doubt, the best video conversion tool available. Got something preferred? You&rsquo;re either wrong, or (more likely), the tool you&rsquo;re using actually uses ffmpeg in the background. Unfortunately, it&rsquo;s not the most well-documented tool available, so some tasks (like overlaying two videos so they play side-by-side) can be somewhat difficult. Through pure coincidence and nothing else, this is how you do said overlay. In this example, two videos will be scaled down to 640x360, then overlaid such that they appear side-by-side.
+1. ffmpeg.exe -i Left_side_video.avi -vf scale=640:360,pad=1280:360:0:0:black -r 30 Left_side_video_small.avi
+2. ffmpeg.exe -i Right_side_video.avi -vf scale=640:360 -r 30 Right_side_video_small.avi
+3. ffmpeg.exe -i Left_side_video_small.avi -vf &ldquo;movie=Right_side_video_small.avi [mv]; [in][mv] overlay=640:0&rdquo; -r 30 Video_Comparison.avi</p>
+
+<ul>
+<li>The -i argument specifies the input video.</li>
+<li>The -r argument specifies frame rate. For this to work properly, both videos must be exactly the same framerate.</li>
+<li>The -vf arguments are the video filter arguments. There are tonnes of these (check the docs) that can do a tonne of things. Very handy.</li>
+</ul>
+
+
+<p>That&rsquo;s it.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Posted by <span class="fn">Ryan Mahler</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2012-03-14T14:22:43-04:00" pubdate data-updated="true">Mar 14<span>th</span>, 2012</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/ylsned/'>ylsned</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://ryantmer.com/blog/2012/03/14/ylsned-overlaying-videos-with-ffmpeg/" data-via="" data-counturl="http://ryantmer.com/blog/2012/03/14/ylsned-overlaying-videos-with-ffmpeg/" >Tweet</a>
+  
+  
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2012/02/28/all-the-kings-horses-and-all-the-kings-men/" title="Previous Post: All the king's horses and all the king's men couldn't solve the world's problems – so why do you think you can?">&laquo; All the king's horses and all the king's men couldn't solve the world's problems – so why do you think you can?</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2012/04/27/philosophy-of-life-introduction/" title="Next Post: Philosophy of Life - Introduction">Philosophy of Life - Introduction &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Recent Posts</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2014/02/25/hello-octopress-world/">Hello (Octopress) World!</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/11/10/vsromophas-behind-enemy-lines/">Very Short Reviews of Movies Other People Have Already Seen: Behind Enemy Lines [2001]</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/11/10/vsromophas-starship-troopers/">Very Short Reviews of Movies Other People Have Already Seen: Starship Troopers [1997]</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/11/10/vsromophas-fight-club/">Very Short Reviews of Movies Other People Have Already Seen: Fight Club [1999]</a>
+      </li>
+    
+      <li class="post">
+        <a href="/blog/2013/11/09/vsromophas-500-days-of-summer/">Very Short Reviews of Movies Other People Have Already Seen: (500) Days of Summer [2009]</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2014 - Ryan Mahler -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = '//platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+
+
+</body>
+</html>

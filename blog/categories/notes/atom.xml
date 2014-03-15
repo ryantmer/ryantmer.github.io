@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Notes | Ryan Mahler]]></title>
   <link href="http://ryantmer.com/blog/categories/notes/atom.xml" rel="self"/>
   <link href="http://ryantmer.com/"/>
-  <updated>2014-03-15T13:22:21-04:00</updated>
+  <updated>2014-03-15T14:22:18-04:00</updated>
   <id>http://ryantmer.com/</id>
   <author>
     <name><![CDATA[Ryan Mahler]]></name>
@@ -14,295 +14,106 @@
 
   
   <entry>
-    <title type="html"><![CDATA[There Is No Such Thing as Free Time...]]></title>
-    <link href="http://ryantmer.com/blog/2010/11/01/there-is-no-such-thing-as-free-time/"/>
-    <updated>2010-11-01T08:10:20-04:00</updated>
-    <id>http://ryantmer.com/blog/2010/11/01/there-is-no-such-thing-as-free-time</id>
-    <content type="html"><![CDATA[<p>&hellip; So please stop saying it.</p>
+    <title type="html"><![CDATA[Connecting PC Headset Mic to Mixer (Steinberg CI1)]]></title>
+    <link href="http://ryantmer.com/blog/2013/10/19/connecting-pc-headset-mic-to-mixer-steinberg-ci1/"/>
+    <updated>2013-10-19T18:40:52-04:00</updated>
+    <id>http://ryantmer.com/blog/2013/10/19/connecting-pc-headset-mic-to-mixer-steinberg-ci1</id>
+    <content type="html"><![CDATA[<p>This is what I would thoroughly classify under, &ldquo;rare, but irksome&rdquo; problems.</p>
+
+<p>I&rsquo;ve got a Steinberg CI1 mixer that I use as an input for my guitar, and have my KRK studio monitors plugged into for output. It&rsquo;s plugged into my computer as well, so I can either run the guitar to the monitors, or my PC&rsquo;s sound (or both). The mixer uses either line-level or +48V phantom power for the inputs. Which is great for a guitar, or for a professional microphone, but the microphones in PC headsets (mostly condenser mics, which are fairly cheap) run at the +5V supplied by a computer&rsquo;s soundcard. Which is&hellip; awkward, and since I just bought a shiny new Razer Blackshark headset, I figured I should find a way to plug the PC mic into the mixer, for convenience and whatnot.</p>
+
+<p>So, I found a way. It takes the mic signal from the 3.5mm TRS connector from the headset, amplifies it, and outputs to a &frac14;" TS connector (although it could just as easily be a 3.5mm TS jack, if that&rsquo;s what you required). Pretty simple, parts list as follows:</p>
+
+<ul>
+<li>3.5mm female TRS connector jack</li>
+<li>&frac14;" male TS connector (with some cable attached, I just used part of an old guitar cable)</li>
+<li>10uF capacitor (I&rsquo;d say 16V+, the one I&rsquo;ve used is 100V, but that&rsquo;s overkill, just what I had)</li>
+<li>2.2kOhm resistor</li>
+<li>9V battery connector</li>
+</ul>
+
+
+<p>The circuit diagram is as follows:</p>
+
+<p><img src="http://mahler.ca/notablog/wp-content/uploads/2013/10/PC-Headset-to-Mixer-amp.jpg" alt="Circuit diagram for amp" /></p>
+
+<p>That&rsquo;s uhh&hellip; That&rsquo;s pretty much it. I put it into a fancy little project box, to make it fancy, as below. Aside from that, just connect the 9V battery whenever you need to use the mic, plug your headset into the 3.5mm end, then plug the &frac14;" side into the mixer, and you should be good to go!</p>
+
+<p>Fancy.</p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[100 Things]]></title>
-    <link href="http://ryantmer.com/blog/2010/10/14/100-things/"/>
-    <updated>2010-10-14T18:13:28-04:00</updated>
-    <id>http://ryantmer.com/blog/2010/10/14/100-things</id>
-    <content type="html"><![CDATA[<p>Since everyone likes to think they&rsquo;re so deep with the crap they put on Facebook, I decided to give it a shot. I decided to write 100 things about myself. Surprisingly hard.</p>
+    <title type="html"><![CDATA[Psychology? That's the (Easiest|hardest) Degree Ever!]]></title>
+    <link href="http://ryantmer.com/blog/2013/05/26/psychology-thats-the-easiest-hardest-degree-ever/"/>
+    <updated>2013-05-26T19:36:14-04:00</updated>
+    <id>http://ryantmer.com/blog/2013/05/26/psychology-thats-the-easiest-hardest-degree-ever</id>
+    <content type="html"><![CDATA[<p>&ldquo;Possible things, then, will be all those things that are not impossible things &ndash; that is, all those things that are either contingent or necessary. If there are no necessary things then all possible things will be contingent and all contingent things will be possible. If there is a necessary thing, however, then there will be a possible thing which is not contingent.&rdquo; &ndash; Philosophy: The Quest For Truth (Pojman, Vaughn)</p>
 
-<p>I am me.
-I am not short, but there are many taller than I am.
-I am a skinny white kid.
-I am darker than most people think, but not in the way that most people think.
-I am myopic.
-I am not shortsighted.
-I have good night vision.
-I am sometimes completely blind.
-I don&rsquo;t not shave because I&rsquo;m going for a “look”.
-I don&rsquo;t shave because I&rsquo;m lazy.
-I genuinely do not care about my appearance.
-I do care about how I feel about myself.
-I do care about how others feel about me.
-I can&rsquo;t touch my nose with my tongue.
-I wear what I want.
-I don&rsquo;t wear what you wear.
-I don&rsquo;t wear what you don&rsquo;t wear.
-I make my own decisions.
-I don&rsquo;t make decisions based on commercials and media.
-I don&rsquo;t make decisions based against commercials and media.
-I judge music based on it&rsquo;s own merits.
-I don&rsquo;t like “that new band”.
-I don&rsquo;t like “that new band” because everybody else likes it.
-I don&rsquo;t not like “that new band” because everybody else likes it.
-I walk my own path in life.
-I won&rsquo;t go where everyone else is going.
-I won&rsquo;t not go where everyone else is going because everyone else is going there.
-I enjoy possessions more than money.
-I know what having feels like.
-I know what loss feels like.
-I have some thoughts which are beyond comprehension outside my head.
-I can&rsquo;t express my thoughts in words.
-I am simple.
-I seek happiness.
-I like a good time.
-I like good fun and bad fun.
-I mean it when I say I&rsquo;m not thinking about anything.
-I have no rhyme nor reason – I do something because I want to.
-I like to think up elaborate stories in my head, but I never write them down.
-I am selfish, just like everyone else.
-I am complex, just like everyone else.
-I can&rsquo;t see myself in 20 years.
-I can&rsquo;t see myself in 5 years.
-I can&rsquo;t see myself tomorrow.
-I don&rsquo;t write poetry.
-I write thoughts.
-I don&rsquo;t quote song lyrics to appear “deep” or “thoughtful”.
-I quote song lyrics because I want to.
-I don&rsquo;t seek revenge.
-I don&rsquo;t get angry.
-I don&rsquo;t find pleasure in pain.
-I don&rsquo;t find pleasure in the pain of others.
-I am happy when others are happy, and satisfied when others are satisfied.
-I lie to help others.
-I don&rsquo;t hate those who hate me.
-I don&rsquo;t hate those who love me.
-I don&rsquo;t hate those who don&rsquo;t love me back.
-I don&rsquo;t hate.
-I love the military and military technology.
-I don&rsquo;t love war.
-I support our troops, but not those who misled them.
-I am rational.
-I dislike irrational people.
-I think Ann Coulter is the most despicable person on the planet.
-I think people who ignore or deny climate change are as intelligent as a potato.
-I don&rsquo;t think the free market should be allowed to rule the world.
-I think people should stop to think about what they think once in a while.
-I appreciate what religion has done for us historically.
-I think the time for religion has passed.
-I appreciate the finer things.
-I appreciate the finer things, but not just because everyone else thinks they do too.
-I like music.
-I like a wide variety of music.
-I like loud music.
-I dislike autotuned crap.
-I like good cheese.
-I think bacon should be a food group.
-I like technology that makes our lives better.
-I am irritated by people who misuse technology.
-I am irritated by people who actively disrupt the evolution of technology.
-I am irritated by people who actively disrupt the evolution of our species.
-I hope for a better future for everybody.
-I hope the past was not the best thing that ever happened to everybody.
-I don&rsquo;t live in the past.
-I don&rsquo;t live in the future.
-I live in the present.
-I learned to understand when I was very young.
-I will understand to learn until I am old.
-I sometimes say things I don&rsquo;t mean to.
-I sometimes don&rsquo;t say things I mean to.
-I sometimes speak without talking.
-I sometimes talk without speaking.
-I am not as crazy as you think I am.
-I am far weirder than you think I am.
-I am different than you in every way.
-I am better than you in every way.
-I am the same as you in every way.
-I am worse than you in every way.
-I am me.
-Deal with it, motherfucker.</p>
+<p>This is a quote from a textbook for a first year philosophy course.</p>
 
-<p>I decided that ending with &ldquo;Deal with it&rdquo; sounded incredibly emo/depressed/scene/whateverthefuck/{they&rsquo;re all the same anyway}, so I added profanity to lighten the mood.</p>
+<p>I have long maintained that the idea that some academic programs are harder than others is preposterous. I&rsquo;ve experienced this from both ends &ndash; people telling me that I &ldquo;must be really smart to be in computer engineering&rdquo;, since there&rsquo;s &ldquo;no way they could do that!&rdquo;, as well as those informing me that psychology is &ldquo;waaaaaay harder&rdquo; than computer engineering, because it requires &ldquo;hours of reading every day, and you&rsquo;ve got to write a thesis and if you don&rsquo;t get published your entire degree is a waste!&rdquo; Both of these statements I find to be a bit&hellip; well, rather silly.</p>
+
+<p>For example: I find the textbook paragraph above extremely difficult to parse and understand, whereas a language-brain-type would have no issue doing so; that said, I am likely able to parse and understand concepts of analog signals better than they would. It&rsquo;s much less a matter of the content, and more a matter of the reader or learner. Different people have difficulty with different things, simple as that.</p>
+
+<p>While anecdotal evidence is a logical fallacy (see <a href="https://yourlogicalfallacyis.com/anecdotal">https://yourlogicalfallacyis.com/anecdotal</a>), and I am in no way basing my conclusions off just this, my own progress and marks (most notably in my university career, although a similar analysis could be done for high school if I had the marks accessible) are a good example of how wrong this claim is. Last term &ndash; my second half of 3rd year computer engineering (honours) at the University of Waterloo &ndash; I took Psych 101 as an elective. You know, THE Psych 101 course. The one that seemingly everybody who has ever been to university has taken &ndash; and passed without any effort. Well, I got a lower mark in THE Psych 101 course than I did in my 3rd-year computer networks course, despite Psych 101 being generally recognized as a bird course for first years. In fact, I received a lower mark in Psych 101 than I received in my 3rd-year engineering economics course as well. Speaking of that, I also took Econ 102 (macroeconomics, another one of those everybody-takes-it first year courses) in the same term, and received nearly the same mark in it as the aforementioned 3rd year engineering economics course &ndash; a course that should, by it&rsquo;s description at least, be much more difficult. So what gives?</p>
+
+<p>Now, you might think this breaks down to amount of effort put in. Undoubtedly, I spent more time on my engineering courses than I did my Psych 101 and Econ 102 electives. But, quite frankly, that wasn&rsquo;t the root cause of the lower marks. The entire term, I knew that it wasn&rsquo;t time, or studying that would enable me to get 100% in these supposedly simple, throwaway courses. I knew what would, though &ndash; nothing. Well, nothing short of a brain transplant. Thing is, I don&rsquo;t have the brain required for social sciences, or economics, or (apparently) philosophy. These are topics that require huge amounts of memorization, which I am simply unable to do (unless you&rsquo;re talking Arrested Development quotes, that&rsquo;s an exception). They also are topics where there is, at times, very little connectedness &ndash; although this may only be from my perspective, really. I find the topics we learn about in our computer engineering courses to be very interrelated, both within topics in a course as well as within courses (even spanning multiple years), whereas I don&rsquo;t see this same sort of network forming with other subjects. Adding to my perhaps skewed perception is the professors teaching these courses. My engineering economics course and Econ 102 had similar content, but the engineering one was framed in such a way that it had more of that connectedness, and I was therefore able to do just fine in it. On the other hand, Econ 102 was presented more as a loosely-connected list of concepts, without much &ldquo;glue&rdquo; tying them together in real-world application, making it much harder for me to really understand what was going on.</p>
+
+<p>So, am I insane? Or do I have a point here? I don&rsquo;t actually know to be honest. Thing is, at this point, having been through most of a university degree, there&rsquo;s really no way for me to compare. If I were to pursue a degree in psychology after graduating, it would be an unfair comparison. I already have experience with the university education system, allowing me to effectively game the system at times, much like students do in high school. (Other students, I mean. Not me. I was a workaholic for those four years. Totally.)</p>
+
+<p>In conclusion (he wrote, feeling a bit like a high school student trapped in an essay), it seems to me that while not all degrees are created equal, not all people are created equal either, and we therefore cannot judge the relative merit of degrees based on perceived difficulty. The grass is always greener on the other side of the fence, so we tend to take pity on ourselves and think that we&rsquo;re in the roughest spot, and that everybody else has it easy. Well guess what? They don&rsquo;t. Stop saying they do. Putting them down to make yourself feel better kinda makes you a jerk, and if there&rsquo;s one thing I know, there isn&rsquo;t a course that is designed for the jerk-brained.</p>
+
+<p>(In preparation for philosophy essay due next week, I am adding a few sentences down here to bring the word count up to 1000 words. It&rsquo;s amazing that I can just braindump this much without even trying, whereas said philosophy essay is taking far, far more effort. Shoot, 989 at that last sentence. So, now I&rsquo;m at 1000. Exactly, actually.)</p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Movie Stubs]]></title>
-    <link href="http://ryantmer.com/blog/2010/04/13/movie-stubs/"/>
-    <updated>2010-04-13T15:34:11-04:00</updated>
-    <id>http://ryantmer.com/blog/2010/04/13/movie-stubs</id>
-    <content type="html"><![CDATA[<p>Found a bunch of movie stubs in a drawer in my room. For no reason other than boredom and too much free time, they are (listed by year):</p>
+    <title type="html"><![CDATA[Winter Tires vs. Snow Tires - Who Gives a Damn? (I Do, and You Should Too.)]]></title>
+    <link href="http://ryantmer.com/blog/2012/12/11/winter-tires-vs-snow-tires/"/>
+    <updated>2012-12-11T04:49:05-05:00</updated>
+    <id>http://ryantmer.com/blog/2012/12/11/winter-tires-vs-snow-tires</id>
+    <content type="html"><![CDATA[<p>Okay folks, it&rsquo;s time for me to let you in on a little secret, one that I&rsquo;ve learned from living in the north for most of my life &ndash; &ldquo;snow tires&rdquo; and &ldquo;winter tires&rdquo; are NOT the same thing, and confusing the two is, to put it lightly, not a great idea.</p>
 
-<p><strong>2003:</strong></p>
+<p>Snow tires are barely available anymore &ndash; see <a href="http://www.wheels.ca/how-do-winter-tires-differ-from-snow-tires/%C2%A0for">http://www.wheels.ca/how-do-winter-tires-differ-from-snow-tires/%C2%A0for</a> more information &ndash; and are meant for deep snow driving. The equivalent of a deep-paddle snowmobile track. Know what they&rsquo;re terrible for? Pavement. While surface area doesn&rsquo;t increase friction (actually reduces it), it&rsquo;s important to have a larger contact patch on slippery surfaces, so that there is a greater chance of some part of the contact patch grips.</p>
 
-<ul>
-<li>Elf</li>
-<li>Lord of the Rings: Return of the King</li>
-<li>The Cat in the Hat</li>
-</ul>
+<p>Alright, so who gives a damn? They don&rsquo;t make snow tires anymore, why bother with the distinction? Well, it seems that people are stuck on the term &ldquo;snow tires&rdquo;, and therefore think that they should only remove their &ldquo;all&rdquo;-season tires when the snow flies. (&ldquo;All-season&rdquo; is not a name that makes sense here &ndash; not for shoes, and not for tires.) This is, quite simply, wrong. Want to know when you should remove the all-seasons? When it&rsquo;s below 7 degrees. Yep. Seven degrees Celsius. Above zero. (see <a href="http://www.theglobeandmail.com/globe-drive/car-tips/why-you-still-need-winter-tires-on-dry-pavement/article4180768/,">http://www.theglobeandmail.com/globe-drive/car-tips/why-you-still-need-winter-tires-on-dry-pavement/article4180768/,</a> <a href="http://www.guideautoweb.com/en/articles/3701/,">http://www.guideautoweb.com/en/articles/3701/,</a> and <a href="http://www.wheels.ca/why-winter-tires-there-are-many-reasons/">http://www.wheels.ca/why-winter-tires-there-are-many-reasons/</a>) This is because the composition of all-season tires and winter tires is very different. When it goes below 7, the ability of all-seasons to flex is drastically reduced, meaning they can&rsquo;t properly grip pavement. Winter tires, on the other hand, are made of softer compounds, and so are more able to do so. This makes an immense difference, one that only 37% of Canadians are aware of. (Apparently, <a href="http://www.winnipegfreepress.com/local/manitobans-dont-roll-on-winter-tires-181961121.html">only 37% of Canadians own winter tires</a>.) As someone who has driven with and without winter tires on snow, I can confirm that the difference is rather noticeable.</p>
 
+<p>Oh, and for the record &ndash; the last time it was consistently above 7 degrees in Waterloo was October 27th. So, 6 weeks ago is when everybody should have switched to the winter tires, and yet most cars I see are still rocking the crappy all-seasons.</p>
 
-<p><strong>2004:</strong></p>
+<p>I will state that I personally don&rsquo;t own a car, and so I wouldn&rsquo;t have to buy them. Yes, they are expensive. But consider that since you&rsquo;re switching to your winter tires for 4 months of the year, your all-seasons will last 33% longer, and not running into poles or other cars is always a good way to save money, too!</p>
 
-<ul>
-<li>Harry Potter and the Prizoner of Azkaban</li>
-<li>Garfield</li>
-<li>Shrek 2</li>
-</ul>
-
-
-<p><strong>2005:</strong></p>
-
-<ul>
-<li>None&hellip;?</li>
-</ul>
-
-
-<p><strong>2006:</strong></p>
-
-<ul>
-<li>Babel</li>
-<li>The Holiday</li>
-<li>The Pink Panther</li>
-</ul>
-
-
-<p><strong>2007:</strong></p>
-
-<ul>
-<li>Transformers</li>
-<li>Harry Potter and the Order of the Phoenix</li>
-<li>Blood Diamond</li>
-<li>The Golden Compass</li>
-<li>Beowulf</li>
-<li>Children of Men</li>
-<li>Transformers (only movie I have ever seen twice in theaters, afaik)</li>
-</ul>
-
-
-<p><strong>2008:</strong></p>
-
-<ul>
-<li>Burn After Reading</li>
-<li>The X Files: I Want to Believe</li>
-<li>Hancock</li>
-<li>Eagle Eye</li>
-<li>Juno</li>
-<li>The Dark Knight</li>
-</ul>
-
-
-<p><strong>2009:</strong></p>
-
-<ul>
-<li>Transformers 2</li>
-<li>Valkyrie</li>
-<li>District 9</li>
-<li>Watchmen</li>
-</ul>
-
-
-<p>Yep.</p>
+<p>So please, for your safety, for the safety of other drivers, and for the safety of utility poles all over &ndash; get some <em>winter</em> tires, and use them!</p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Diary of a Polyphasic Sleeper, Part I - Der Anfang]]></title>
-    <link href="http://ryantmer.com/blog/2010/04/01/diary-of-a-polyphasic-sleeper/"/>
-    <updated>2010-04-01T23:59:13-04:00</updated>
-    <id>http://ryantmer.com/blog/2010/04/01/diary-of-a-polyphasic-sleeper</id>
-    <content type="html"><![CDATA[<p>So, this note is written for nobody in particular. More just a reference.</p>
+    <title type="html"><![CDATA[Philosophy of Life - the Future]]></title>
+    <link href="http://ryantmer.com/blog/2012/06/08/philosophy-of-life-the-future/"/>
+    <updated>2012-06-08T17:35:10-04:00</updated>
+    <id>http://ryantmer.com/blog/2012/06/08/philosophy-of-life-the-future</id>
+    <content type="html"><![CDATA[<p><em>This was written as an assignment for my grade 12 religion class, which I recently re-discovered. Interesting for me to read, to see how it aligns with that which I believe now, but likely boring as hell for others. Enjoy at your own risk.</em></p>
 
-<p>As several people are aware, I have been sleeping polyphasically recently. For those unaware of the meaning of polyphasic, it simply means that you sleep in installments throughout the day, as opposed to once per 24-hour cycle. For example, there is a polyphasic sleep schedule called the &ldquo;Uberman&rdquo; schedule, wherein the individual takes six 20-minute naps in a 24-hour period. Yup, two hours of sleep every 24 hours. I am not an &ldquo;Uber man&rdquo;, though, so I opted for a simpler one.</p>
+<p>Some people live for the present, others in the past. I prefer to live for the future. This is because I believe that the future holds huge amount of promise, both for humanity and for myself. In fact, I often cannot wait to see what amazing things will happen in the future.</p>
 
-<p>Basically, I wake up about the same time every morning, about 7:30. Yes, even weekends, and that is key. My classes end around 12:00 usually, so I come home for lunch, and take a half-hour nap (usually 12:30-1:00). I go to afternoon classes, which go to 4:30, come home, and take another half-hour nap from 5:00-5:30 or so. Finally, I sleep again from about 10:30-11:00.</p>
+<p>Interestingly, I do not believe that someday in the future, all of the world&rsquo;s problems will be solved. However, my outlook is nonetheless rather positive. Technological and medical advancements, along with more widespread education, are slowly but surely raising the standard of living throughout the world. Sometimes it may not seem this way, with millions dying every year of starvation, but if we look back in history, there is definitely an upward trend in people&rsquo;s happiness with their lives. For example, every time a new cure is found and put into practice, hundreds, thousands, maybe even millions of lives are saved. However, we must remember that these things can take time, and the one thing that the future has plenty of, is time.</p>
 
-<p>These three half-hour naps are complemented by a big 3 to 5 hour sleep ending at around 7:30am. The length of this nap is variable, and depends on how tired I am any particular day. For example, I sometimes miss a nap in the day for one reason or another. If this is the case, I usually end up being tired at around 2am, and so go to sleep at this point. If I had three excellent naps during the day (as I did today), I&rsquo;ll stay awake until 4 or so. No matter how awake I am, though, this big sleep needs to be at least 3 hours.</p>
-
-<p>To be able to do this, you basically have to trick yourself into going into REM sleep almost instantly, eliminating all the tossing and turning that most people don&rsquo;t realize they do. Meditation helps, looking at the clock worrying that you won&rsquo;t get to sleep does not. I&rsquo;ve only been doing this for a week, and I&rsquo;m already getting into the swing of it. Not only do I fall asleep within a few minutes, but my body and mind are starting to feel tired right around whenever I usually take naps (this is why I don&rsquo;t like skipping naps). I return to my point of waking up at 7:30 on weekends, which is because if you get out of schedule, you may have problems getting back into it.</p>
-
-<p>Some people (my mother) have expressed concerns that this is not healthy. Although I am fairly certain that doing this for extended periods of time would have adverse effects, I will only be doing this until December, and do not believe that it will cause problems. My only complaint is that my legs occasionally hurt due to lack of rest, but this is a problem I have always had, and most people will probably not experience this.</p>
-
-<p>The advantages of this sleep schedule are very apparent, and quite worth it so far. I have about 3 or 4 more hours of being awake every day, which is great. However, the biggest change I have noticed is that when I am awake, I am truly awake. I can work on programming assignments at 2:30 in the morning, and realize the next morning that I actually did them right. This, to me, is the greatest advantage. When sleeping monophasically (one big sleep every night), I would come home after lectures and be exhausted. After sitting around for a couple hours, I could get 2, maybe 3 hours of solid work done in the evening. But after this, I was again too tired to continue. Not anymore. I get about 6 to 8 hours of solid working time per day now, which is great. I can do groceries at 2am (yay 24h Sobey&rsquo;s!) and not mistake Head and Shoulders for crackers. For the first time since arriving at Waterloo, I am almost on time with my assignments!</p>
-
-<p>Hard sleep, hard&hellip; awakedness? I guess that&rsquo;s what this comes down to. Once you&rsquo;re into it, you sleep deeply, even during naps, and you are very awake when you are awake.</p>
-
-<p>3:13am, and I can still type this. See how this works?</p>
+<p>Another aspect regarding the future that people have a philosophy about is whether or not to plan for it. Some people choose to organize every moment of their lives, from dawn until dusk. Others never plan a thing, and prefer to live on the wild side. I find myself on both ends of the spectrum, depending on what it is we are talking about. For example, I think it is important to plan education. As I apply to universities for next year, I realize how important it is to stay organized, and plan ahead so that I do not miss deadlines. Conversely, there are things that I prefer to be somewhat unorganized. In the summer of 2006, my family went on a canoeing trip in Quetico Park, in Ontario. Although we knew where we going, and approximately when, most of the trip was largely unplanned. In the end, it ended up being one of the most exciting vacations I have ever been on. Living without planning, along with the fact that we were somewhat “in the wild” added a sort of excitement to the whole thing, that people who meticulously plan every detail will unfortunately never experience.</p>
 ]]></content>
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Best of Interwebz]]></title>
-    <link href="http://ryantmer.com/blog/2010/04/01/best-of-interwebz/"/>
-    <updated>2010-04-01T18:11:36-04:00</updated>
-    <id>http://ryantmer.com/blog/2010/04/01/best-of-interwebz</id>
-    <content type="html"><![CDATA[<p>(Originally published March 13th, 2009)</p>
+    <title type="html"><![CDATA[Philosophy of Life - Happiness]]></title>
+    <link href="http://ryantmer.com/blog/2012/06/04/philosophy-of-life-happiness/"/>
+    <updated>2012-06-04T13:40:59-04:00</updated>
+    <id>http://ryantmer.com/blog/2012/06/04/philosophy-of-life-happiness</id>
+    <content type="html"><![CDATA[<p><em>This was written as an assignment for my grade 12 religion class, which I recently re-discovered. Interesting for me to read, to see how it aligns with that which I believe now, but likely boring as hell for others. Enjoy at your own risk.</em></p>
 
-<p>Stuff I randomly found, through stumble or otherwise. None are videos, some link directly to images, though. Safe for work! Except for the stuff that is not safe for work.</p>
+<p>Nobody can honestly say that they do not want to be happy in their lives. Some will claim otherwise, but this is generally just a call for attention. Because this is the case, it seems only fitting to have a section on what some see as the goal of life, happiness, in my philosophy of life.</p>
 
-<h3>Humour (may be NSFW):</h3>
+<p>I will start by answering the simplest question about happiness, yet possibly the most difficult to answer: what is happiness? This is a very important question to ask, as it is the answer to this that can very well decide whether an individual will ever be truly happy with their lives. For some, happiness is not easily attained. Instead, it requires a very specific set of circumstances – perhaps a family, perhaps money, perhaps love – before they can be happy. For others, like myself, happiness comes more from the simple fact that I know that I am alive and well. Maybe this seems quaint and cliche, but it is the honest truth. Because I do not believe in the afterlife, what I do in this life is very important, and because of this, what I do in this life makes me happy. According to some studies, involvement in a religion actually tends to make people happier. I personally feel that although this is possible, it may have something to do with their beliefs. If someone is not happy, perhaps they see this is a sign that they are unhappy with what their god has given them in life, which would be considered blasphemous.</p>
 
-<p><a href="" title="http://safenow.org/">Safety stuff</a>
-<a href="" title="http://www.onelinerz.net/top-100-funny-one-liners/">One-liners</a>
-<a href="" title="http://villageofjoy.com/25-motivational-posters/">Motivationals</a>
-<a href="" title="http://static.funnyjunk.com/pictures/hipocrit0.jpg">Hypocrisy, thy name is the USA.</a>
-<a href="" title="http://www.bouldertherapist.com/html/humor/WordPlays/lexophiles.htm">Lexophiles.</a>
-<a href="" title="http://www.sloshspot.com/blog/08-18-2009/Demetri-Martin-Motivational-Posters-201">Demitri Martin stuff</a>
-<a href="" title="http://www.allowe.com/Humor/book/When%20Insults%20Had%20Class.htm">Classy insults</a>
-<a href="" title="http://www.wegame.com/view/Left4Dead_Playground_Style/sizes/">L4D playground</a>
-<a href="" title="http://www.cs.northwestern.edu/~riesbeck/mathphyseng.html">Math/Phys/Eng jokes</a>
-<a href="" title="http://www.wilk4.com/humor/humorm125.htm">Rodney Dangerfield</a>
-<a href="" title="http://venganza.org/jellyfish.html">Jellyfish basically suck.</a>
-<a href="" title="http://www.zoitz.com/comics/coffee3.png">LOL IT&rsquo;S TRUE</a> (ohsnap.)
-<a href="" title="http://www.allowe.com/Humor/computerenhancers.htm">&ldquo;computer enhancers&rdquo;</a></p>
-
-<h3>Photography:</h3>
-
-<p><a href="" title="http://content1.docstoc.com/flash/National%20Geographic%20Pictures.swf">Ooh, pretty.</a>
-<a href="" title="http://www.petapixel.com/2009/07/10/7-steps-to-taking-clone-photographs/">Clones, you say?</a>
-<a href="" title="http://haha.nu/creative/creative-photos-by-chema-madoz/">Creative &lsquo;n stuff.</a>
-<a href="" title="http://gigapica.geenstijl.nl/2009/05/mooi_milieu.html">More pictures</a>
-<a href="" title="http://sergeydolya.livejournal.com/">Moskva?</a> (In Russian, but the links below most pictures lead to more pictures. Good pictures. And possibly porn, I haven&rsquo;t checked all the links.)</p>
-
-<h3>Inspirational/BAWWWWW:</h3>
-
-<p><a href="" title="http://www.catsprn.com/rich-poor.htm">Rich/poor</a>
-<a href="" title="http://static.funnyjunk.com/pictures/hipocrit0.jpg">And again.</a> (it&rsquo;s both funny and inspirational, stfu)
-<a href="" title="http://imgfave.com/image_cache/124146953043433.jpeg">D'AWWWWW</a>
-<a href="" title="http://rescomp.stanford.edu/~cheshire/EinsteinQuotes.html">Einstein quotes</a></p>
-
-<h3>Howto/Self-improvement</h3>
-
-<p><a href="" title="http://www.petapixel.com/2009/07/10/7-steps-to-taking-clone-photographs/">More clones?</a> (again, it&rsquo;s both)
-<a href="" title="http://media.npr.org/programs/atc/features/2008/may/foldingchart540.jpg">How to fold things.</a>
-<a href="" title="http://thenonconsumeradvocate.com/exceptions-to-katys-compact-buy-nothing-new/">How to not buy things.</a>
-<a href="" title="http://mnmlist.com/">How to not anything.</a>
-<a href="" title="http://filesharefreak.com/tutorials/how-to-speed-up-torrents-with-low-seeders/">Torrent stuff</a>
-<a href="" title="http://www.wikihow.com/Make-a-Simple-Beverage-Can-Stove">Beverage can stove, you say?</a>
-<a href="" title="http://www.mindcafe.org/9-brain-habits-you-did-not-realize-you-had">Brain habits</a>
-<a href="" title="http://www.seql.org/100ways.cfm">100 ways to save the earth (oblig. Al Gore)</a></p>
-
-<h3>Stuff that is interesting for reasons other than above:</h3>
-
-<p><a href="" title="http://blogs.denverpost.com/captured/2009/09/10/ian-fisher-american-soldier/">Who is fighting the US&rsquo;s war, you ask? This guy!</a>
-<a href="" title="http://www.jlc.net/~useless/telsongs.html">Telephone songs</a>
-<a href="" title="http://www.worldwithoutus.com/did_you_know.html">Tha future</a> (dunno about anybody else, but makes me feel insignificant&hellip;)
-<a href="" title="http://www.prefixmag.com/news/seven-crimes-that-will-get-you-a-smaller-fine-than/32033/">Murder is not all that bad after all.</a>
-<a href="" title="http://www.toptenz.net/top-10-historical-travel-destinations.php">Travel destinations!</a>
-<a href="" title="http://www.nikon.com/about/feelnikon/universcale/index_f.htm">Sizes of things, in comparison to other things.</a> (WARNING: Heavy flash and sound, so turn those speakers off if you&rsquo;re at work!)
-<a href="" title="http://content.ytmnd.com/content/a/0/8/a0812774c98903448246c7e213bc1fea.gif">Moar future.</a></p>
-
-<p>These are in no particular order. Browse at thy will.</p>
-
-<p>And for good measure, one YouTube video with arguably the best Rube Goldberg machine ever: <a href="" title="http://www.youtube.com/watch?v=qybUFnY7Y8w">OK Go &ndash; This Too Shall Pass</a></p>
+<p>It is difficult to describe the situation in which I would be most happy. I am fairly certain that I would not be rich and famous, not be around computers, nor would I be on an island in the middle of nowhere, alone with my thoughts. I think that because I am so happy with my day to day life, it is actually very hard to describe a happier situation. On the other hand, perhaps I am afraid that if I do think of a happier place, I will spend all my time dreaming about it, and get nothing done until I find myself in that place!</p>
 ]]></content>
   </entry>
   

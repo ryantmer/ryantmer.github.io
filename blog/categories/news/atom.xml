@@ -4,7 +4,7 @@
   <title><![CDATA[Category: News | Ryan Mahler]]></title>
   <link href="http://ryantmer.com/blog/categories/news/atom.xml" rel="self"/>
   <link href="http://ryantmer.com/"/>
-  <updated>2014-03-15T13:22:21-04:00</updated>
+  <updated>2014-03-15T14:22:18-04:00</updated>
   <id>http://ryantmer.com/</id>
   <author>
     <name><![CDATA[Ryan Mahler]]></name>
@@ -23,31 +23,42 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Moar Pictures]]></title>
-    <link href="http://ryantmer.com/blog/2010/09/26/moar-pictures/"/>
-    <updated>2010-09-26T20:39:58-04:00</updated>
-    <id>http://ryantmer.com/blog/2010/09/26/moar-pictures</id>
-    <content type="html"><![CDATA[<p>See title. Check the photos page. I&rsquo;m too lazy to link to it. It&rsquo;s on the right, unless I moved it. Which I didn&rsquo;t. So it&rsquo;s on the right.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[New Photos]]></title>
-    <link href="http://ryantmer.com/blog/2010/05/31/new-photos/"/>
-    <updated>2010-05-31T18:06:40-04:00</updated>
-    <id>http://ryantmer.com/blog/2010/05/31/new-photos</id>
-    <content type="html"><![CDATA[<p>New photos! From Kirstin&rsquo;s graduation from the University of Alberta at the beginning of May, as well as random stuff from Waterloo in May.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Bad Drivers]]></title>
-    <link href="http://ryantmer.com/blog/2010/04/03/bad-drivers/"/>
-    <updated>2010-04-03T21:21:10-04:00</updated>
-    <id>http://ryantmer.com/blog/2010/04/03/bad-drivers</id>
-    <content type="html"><![CDATA[<p>In a sorely misguided attempt to make the world a better place, I&rsquo;ve added a bad drivers database. Here, you can add info about any sort of terrible instances of driving you happen upon (in Yellowknife, I observe these types of events several times a day). In theory, people seeing a description of their car and how much of a moron they are online will help them become a better driver. In reality, this is just another way for me (and others) to take out aggression through the wonderful anonymity that the internet provides. Everybody wins!</p>
+    <title type="html"><![CDATA[Two Posts in Two Days? The Apocalypse Is Surely Coming...]]></title>
+    <link href="http://ryantmer.com/blog/2012/11/23/two-posts-in-two-days/"/>
+    <updated>2012-11-23T12:04:04-05:00</updated>
+    <id>http://ryantmer.com/blog/2012/11/23/two-posts-in-two-days</id>
+    <content type="html"><![CDATA[<p>New photos up! Also, I am now on Twitter. By which I mean, I wanted to get more SHiFT codes for Borderlands 2.</p>
 
-<p>I, for one, will be keeping a notepad and pen in my car from now on&hellip;</p>
+<p><a href="https://twitter.com/ryantmer">https://twitter.com/ryantmer</a></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[More Tumbleweeds...]]></title>
+    <link href="http://ryantmer.com/blog/2012/02/09/more-tumbleweeds/"/>
+    <updated>2012-02-09T10:53:07-05:00</updated>
+    <id>http://ryantmer.com/blog/2012/02/09/more-tumbleweeds</id>
+    <content type="html"><![CDATA[<p>This post is mainly to address Mederbil&rsquo;s concern that I don&rsquo;t update my site enough. I say that is bollocks, as this is clearly an update! And even better, I&rsquo;ve got a few more updates that will come in a bit! Eventually! I promise!</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[A Tumbleweed Rolls By...]]></title>
+    <link href="http://ryantmer.com/blog/2011/12/21/a-tumbleweed-rolls-by/"/>
+    <updated>2011-12-21T20:24:56-05:00</updated>
+    <id>http://ryantmer.com/blog/2011/12/21/a-tumbleweed-rolls-by</id>
+    <content type="html"><![CDATA[<p>It casts a +122 spell of indecision. Everyone in the immediate area cannot choose a way to fight back.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[New Photos Section]]></title>
+    <link href="http://ryantmer.com/blog/2011/08/02/new-photos-section/"/>
+    <updated>2011-08-02T19:05:27-04:00</updated>
+    <id>http://ryantmer.com/blog/2011/08/02/new-photos-section</id>
+    <content type="html"><![CDATA[<p>Completely revamped the photos section of this site. If you find any anomalies, let me know. Some stuff is still in progress.</p>
+
+<p>For the boring code people: Wrote it all from scratch, tried both a PHP/JS and a PHP-only version, and although the PHP/JS one was slightly faster, the PHP-only one was a lot cleaner. It&rsquo;s all done automated-ed-ly &ndash; I just stick folders of full-size, unedited photos in the right place, and bam shazam &ndash; a Perl script does the resizing, everything else is generated when you load the PHP page.</p>
 ]]></content>
   </entry>
   
