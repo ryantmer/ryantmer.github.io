@@ -4,7 +4,7 @@
   <title><![CDATA[Ryan Mahler]]></title>
   <link href="http://ryantmer.com/atom.xml" rel="self"/>
   <link href="http://ryantmer.com/"/>
-  <updated>2014-03-20T17:14:39-04:00</updated>
+  <updated>2014-03-20T17:15:59-04:00</updated>
   <id>http://ryantmer.com/</id>
   <author>
     <name><![CDATA[Ryan Mahler]]></name>
@@ -33,7 +33,7 @@
 
 <p>In addition, a request before we get started. If you&rsquo;re a person that is knowledgeable in this area (the term &ldquo;neckbeard&rdquo; comes to mind), please understand that I tried to make this as simple as possible. This means there are some pretty big oversimplifications and generalizations. You can argue with me that CAS latency is critical to get the best performance out of your RAM with me all day, but the fact is that a beginner won&rsquo;t give a shit. So before yelling at me, remember that.</p>
 
-<h3><a href="http://www.newegg.ca/Product/Product.aspx?Item=N82E16811139018">Corsair Carbide Series 200R Black Steel / Plastic compact ATX Mid Tower Case</a></h3>
+<h2><a href="http://www.newegg.ca/Product/Product.aspx?Item=N82E16811139018">Corsair Carbide Series 200R Black Steel / Plastic compact ATX Mid Tower Case</a></h2>
 
 <p><strong>Model</strong></p>
 
@@ -49,7 +49,7 @@
 <li>Color &ndash; Black: It means it&rsquo;s black. Exciting.</li>
 <li>Case Material &ndash; Steel structure with molded ABS plastic accent pieces: Most cases are exactly this. Steel for the structure, and plastic for accents and sometimes the internal mounting hardware.</li>
 <li>With Power Supply &ndash; No: Some cases come sold with a power supply. In general, it&rsquo;s cheaper to buy them this way, but be warned that the power supplies in these sorts of configurations are generally not of particularly high quality.</li>
-<li>Power Supply Mounted -Bottom: Refers to where in the case the power supply is mounted. More &ldquo;enthusiast&rdquo; cases typically do bottom, as this means the heat from your GPUs and CPU aren&rsquo;t exhausting through the power supply, which can reduce the life of the power supply.</li>
+<li>Power Supply Mounted &ndash; Bottom: Refers to where in the case the power supply is mounted. More &ldquo;enthusiast&rdquo; cases typically do bottom, as this means the heat from your GPUs and CPU aren&rsquo;t exhausting through the power supply, which can reduce the life of the power supply.</li>
 <li>Motherboard Compatibility &ndash; Micro ATX / ATX: Related to &ldquo;Type&rdquo;. Micro ATX has the same mounting pattern (screw holes), but smaller boards, as ATX.</li>
 <li>With Side Panel Window &ndash; No: If you want to be able to look at all the pretty internals, a side window is a good idea!</li>
 </ul>
@@ -90,7 +90,7 @@
 <p><strong>Features</strong>
 &ndash; Not going into detail on these. These vary greatly from case to case. Some highlights of this one include tool-free design (meaning you wouldn&rsquo;t need a screwdriver for a lot of the building process) and cabling management systems, which make routing the various cables an easier process.</p>
 
-<h3><a href="http://www.newegg.ca/Product/Product.aspx?Item=N82E16817371071">Antec TruePower Classic series TP-550C 550W 80 PLUS GOLD Certified Power Supply</a></h3>
+<h2><a href="http://www.newegg.ca/Product/Product.aspx?Item=N82E16817371071">Antec TruePower Classic series TP-550C 550W 80 PLUS GOLD Certified Power Supply</a></h2>
 
 <p><strong>Model</strong></p>
 
@@ -115,7 +115,7 @@
 </ul>
 
 
-<h3><a href="http://www.newegg.ca/Product/Product.aspx?Item=N82E16813128519">GIGABYTE GA-970A-UD3 AM3+ AMD 970 + SB950 SATA 6Gb/s USB 3.0 ATX AMD Motherboard</a></h3>
+<h2><a href="http://www.newegg.ca/Product/Product.aspx?Item=N82E16813128519">GIGABYTE GA-970A-UD3 AM3+ AMD 970 + SB950 SATA 6Gb/s USB 3.0 ATX AMD Motherboard</a></h2>
 
 <p><em>Finally, getting into the interesting stuff!</em></p>
 
@@ -204,7 +204,7 @@
 </ul>
 
 
-<h3><a href="http://www.newegg.ca/Product/Product.aspx?Item=N82E16819113291">AMD FX-4130 Zambezi 3.8GHz Socket AM3+ Quad-Core Desktop Processor FD4130FRGUBOX</a></h3>
+<h2><a href="http://www.newegg.ca/Product/Product.aspx?Item=N82E16819113291">AMD FX-4130 Zambezi 3.8GHz Socket AM3+ Quad-Core Desktop Processor FD4130FRGUBOX</a></h2>
 
 <p><strong>Model</strong></p>
 
@@ -237,7 +237,7 @@
 </ul>
 
 
-<h3><a href="http://www.newegg.ca/Product/Product.aspx?Item=N82E16820231314">G.SKILL Ripjaws Series 8GB (2 x 4GB) 240-Pin DDR3 SDRAM DDR3 1600 (PC3 12800) Desktop Memory Model F3-12800CL9D-8GBRL</a></h3>
+<h2><a href="http://www.newegg.ca/Product/Product.aspx?Item=N82E16820231314">G.SKILL Ripjaws Series 8GB (2 x 4GB) 240-Pin DDR3 SDRAM DDR3 1600 (PC3 12800) Desktop Memory Model F3-12800CL9D-8GBRL</a></h2>
 
 <p><em>I hate how convoluted RAM specs are.</em></p>
 
@@ -266,7 +266,7 @@
 </ul>
 
 
-<h3><a href="http://www.newegg.ca/Product/Product.aspx?Item=N82E16820147247">SAMSUNG 840 EVO MZ-7TE120BW 2.5&#8221; 120GB SATA III TLC Internal Solid State Drive (SSD)</a></h3>
+<h2><a href="http://www.newegg.ca/Product/Product.aspx?Item=N82E16820147247">SAMSUNG 840 EVO MZ-7TE120BW 2.5&#8221; 120GB SATA III TLC Internal Solid State Drive (SSD)</a></h2>
 
 <p><em>Solid-state drives are more expensive than their mechanical counterparts (hard disk drives, HDDs), but worth the price difference.</em></p>
 
@@ -297,7 +297,7 @@
 </ul>
 
 
-<h3><a href="http://www.newegg.ca/Product/Product.aspx?Item=N82E16814202050">SAPPHIRE 100364L Radeon R9 270X 2GB 256-Bit GDDR5 PCI Express 3.0 x16 HDCP Ready CrossFireX Support Video Card</a></h3>
+<h2><a href="http://www.newegg.ca/Product/Product.aspx?Item=N82E16814202050">SAPPHIRE 100364L Radeon R9 270X 2GB 256-Bit GDDR5 PCI Express 3.0 x16 HDCP Ready CrossFireX Support Video Card</a></h2>
 
 <p><em>I take it back. GPUs are much, much worse than RAM.</em></p>
 
