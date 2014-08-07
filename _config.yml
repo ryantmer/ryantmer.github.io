@@ -1,0 +1,18 @@
+# Site settings
+title: Ryan T. Mahler
+email: ryantmer@gmail.com
+description: "technologies, anomalies, photographies"
+baseurl: ""
+url: "http://ryantmer.com"
+twitter_username: ryantmer
+github_username:  ryantmer
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+source: .
+destination: _site
+safe: false
+exclude: []
+include: []
+timezone: America/Toronto
