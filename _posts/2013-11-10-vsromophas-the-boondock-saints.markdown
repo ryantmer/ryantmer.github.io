@@ -1,9 +1,6 @@
 ---
 layout: post
 title: "Very short reviews of movies other people have already seen: The Boondock Saints [1999]"
-date: 2013-11-10 00:53:24 +0000
-comments: true
-categories: vsromophas
 ---
 
 "The Boondock Saints is a 1999 crime thriller film written and directed by Troy Duffy. The film stars Sean Patrick Flanery and Norman Reedus as Catholic Irish American fraternal twins, Conner and Murphy MacManus, who become vigilantes after killing two members of the Russian Mafia in self-defense. After a "message from God", the brothers, together with their friend David Della Rocco, set out to rid their home city of Boston, Massachusetts of crime and evil; all the while being pursued by Special Agent Paul Smecker (Willem Dafoe)."

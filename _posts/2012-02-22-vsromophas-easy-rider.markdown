@@ -1,9 +1,6 @@
 ---
 layout: post
 title: "Very Short Reviews Of Movies Other People Have Already Seen - Easy Rider [1969]"
-date: 2012-02-22 20:48:06 +0000
-comments: true
-categories: vsromophas
 ---
 
 "Easy Rider is a 1969 American road movie written by Peter Fonda, Dennis Hopper, and Terry Southern, produced by Fonda and directed by Hopper. It tells the story of two bikers (played by Fonda and Hopper) who travel through the American Southwest and South with the aim of achieving freedom. The success of Easy Rider helped spark the New Hollywood phase of filmmaking during the late sixties. The film was added to the Library of Congress National Registry in 1998.

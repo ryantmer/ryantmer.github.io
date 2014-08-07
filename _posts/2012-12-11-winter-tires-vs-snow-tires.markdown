@@ -1,9 +1,6 @@
 ---
 layout: post
 title: "Winter Tires vs. Snow Tires - Who Gives a Damn? (I do, and you should too.)"
-date: 2012-12-11 09:49:05 +0000
-comments: true
-categories: notes
 ---
 
 Okay folks, it's time for me to let you in on a little secret, one that I've learned from living in the north for most of my life - "snow tires" and "winter tires" are NOT the same thing, and confusing the two is, to put it lightly, not a great idea.

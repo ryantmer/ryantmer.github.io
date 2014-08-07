@@ -5,8 +5,8 @@
     <description>technologies, anomalies, photographies</description>
     <link>http://ryantmer.com/</link>
     <atom:link href="http://ryantmer.com/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Thu, 07 Aug 2014 11:58:21 -0400</pubDate>
-    <lastBuildDate>Thu, 07 Aug 2014 11:58:21 -0400</lastBuildDate>
+    <pubDate>Thu, 07 Aug 2014 12:36:00 -0400</pubDate>
+    <lastBuildDate>Thu, 07 Aug 2014 12:36:00 -0400</lastBuildDate>
     <generator>Jekyll v2.2.0</generator>
     
       <item>
@@ -105,12 +105,10 @@
 
 &lt;p&gt;This is a weird post.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 10 Jun 2014 18:18:45 -0400</pubDate>
-        <link>http://ryantmer.com/notes/2014/06/10/five-thousand-in-four/</link>
-        <guid isPermaLink="true">http://ryantmer.com/notes/2014/06/10/five-thousand-in-four/</guid>
+        <pubDate>Tue, 10 Jun 2014 00:00:00 -0400</pubDate>
+        <link>http://ryantmer.com/2014/06/10/five-thousand-in-four/</link>
+        <guid isPermaLink="true">http://ryantmer.com/2014/06/10/five-thousand-in-four/</guid>
         
-        
-        <category>notes</category>
         
       </item>
     
@@ -439,12 +437,10 @@ Interface - PCI Express 3.0 x16: This is the slot it goes into on the motherboar
 &lt;p&gt;Holy shit, that’s everything. This is a very, very summarized view. I tried to give a brief comment on things that are relevant to beginner/novice PC builder to attempt to make it a bit simpler. But it’s still pretty goddamn complicated, so I recommend always getting a friend who has experience in the area to give you a hand!&lt;/p&gt;
 
 </description>
-        <pubDate>Thu, 20 Mar 2014 16:50:30 -0400</pubDate>
-        <link>http://ryantmer.com/notes/2014/03/20/beginner-pc-builders-guide/</link>
-        <guid isPermaLink="true">http://ryantmer.com/notes/2014/03/20/beginner-pc-builders-guide/</guid>
+        <pubDate>Thu, 20 Mar 2014 00:00:00 -0400</pubDate>
+        <link>http://ryantmer.com/2014/03/20/beginner-pc-builders-guide/</link>
+        <guid isPermaLink="true">http://ryantmer.com/2014/03/20/beginner-pc-builders-guide/</guid>
         
-        
-        <category>notes</category>
         
       </item>
     
@@ -453,31 +449,42 @@ Interface - PCI Express 3.0 x16: This is the slot it goes into on the motherboar
         <description>&lt;p&gt;In my effort to constantly be changing my site, it’s now using &lt;a href=&quot;http://octopress.org&quot; title=&quot;Octopress site&quot;&gt;Octopress&lt;/a&gt;. Thanks to &lt;a href=&quot;http://olivercardoza.com&quot; title=&quot;Oliver Cardoza's site&quot;&gt;Oliver Cardoza&lt;/a&gt; for the tip!&lt;/p&gt;
 
 </description>
-        <pubDate>Tue, 25 Feb 2014 18:17:36 -0500</pubDate>
-        <link>http://ryantmer.com/news/2014/02/25/hello-octopress-world/</link>
-        <guid isPermaLink="true">http://ryantmer.com/news/2014/02/25/hello-octopress-world/</guid>
+        <pubDate>Tue, 25 Feb 2014 00:00:00 -0500</pubDate>
+        <link>http://ryantmer.com/2014/02/25/hello-octopress-world/</link>
+        <guid isPermaLink="true">http://ryantmer.com/2014/02/25/hello-octopress-world/</guid>
         
-        
-        <category>news</category>
         
       </item>
     
       <item>
-        <title>Very short reviews of movies other people have already seen: Behind Enemy Lines [2001]</title>
-        <description>&lt;p&gt;Based on a fictional US Navy F-18 navigator who gets shot down over a supposedly DMZ during what is supposedly the Bosnian conflict of the early ’90s.&lt;/p&gt;
+        <title>Very short reviews of movies other people have already seen: Top Gun [1986]</title>
+        <description>&lt;p&gt;“This film stars Tom Cruise, Kelly McGillis, Anthony Edwards, Val Kilmer, Meg Ryan, and Tom Skerritt. Cruise plays Lieutenant Pete “Maverick” Mitchell, a young Naval aviator on board the aircraft carrier USS Enterprise. He and his Naval Flight Officer (Radar Intercept Officer - the “RIO” - the “back seater” in the two-man F-14 Tomcat) Lt. j.g. Nick “Goose” Bradshaw are given the chance to train at the Navy’s Fighter Weapons School, after the pilot above him in the squadron rankings resigns from duty following a very stressful mission. This film depicts Maverick’s progress through the training, his romance with a female instructor, and his overcoming a crisis of confidence following a fatal training accident.” - http://en.wikipedia.org/wiki/Top_gun&lt;/p&gt;
 
-&lt;p&gt;Good enough storyline, somewhat original. Cheesy special effects (it was almost 10 years ago, you know), and too many clichés. Evil Russian sniper anyone?&lt;/p&gt;
+&lt;p&gt;No idea why this film was so popular. Maybe it’s just the 80s hairstyles, but sitting through the entire length of this film was actually quite excruciating. Not sure if it’s action, romance, or just a blatant US Navy recruiting project.&lt;/p&gt;
 
-&lt;p&gt;5.2445/10, for lack of imagination and trying to make me take Owen Wilson seriously.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Originally posted on Facebook on 2 February 2010 at 19:42&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Originally posted on Facebook on 5 February 2010 at 20:28&lt;/em&gt;&lt;/p&gt;
 </description>
-        <pubDate>Sun, 10 Nov 2013 15:04:45 -0500</pubDate>
-        <link>http://ryantmer.com/vsromophas/2013/11/10/vsromophas-behind-enemy-lines/</link>
-        <guid isPermaLink="true">http://ryantmer.com/vsromophas/2013/11/10/vsromophas-behind-enemy-lines/</guid>
+        <pubDate>Sun, 10 Nov 2013 00:00:00 -0500</pubDate>
+        <link>http://ryantmer.com/2013/11/10/vsromophas-top-gun/</link>
+        <guid isPermaLink="true">http://ryantmer.com/2013/11/10/vsromophas-top-gun/</guid>
         
         
-        <category>vsromophas</category>
+      </item>
+    
+      <item>
+        <title>Very short reviews of movies other people have already seen: The Boondock Saints [1999]</title>
+        <description>&lt;p&gt;“The Boondock Saints is a 1999 crime thriller film written and directed by Troy Duffy. The film stars Sean Patrick Flanery and Norman Reedus as Catholic Irish American fraternal twins, Conner and Murphy MacManus, who become vigilantes after killing two members of the Russian Mafia in self-defense. After a “message from God”, the brothers, together with their friend David Della Rocco, set out to rid their home city of Boston, Massachusetts of crime and evil; all the while being pursued by Special Agent Paul Smecker (Willem Dafoe).”&lt;/p&gt;
+
+&lt;p&gt;Irish wit. Excessive use of the word “fuck” (in all senses). Bloody violence. And Willem DaFoe dressed as a woman. What’s not to like? Well, not overly great storytelling and a sense that this film has no point is what’s not to like.&lt;/p&gt;
+
+&lt;p&gt;6/10. Entertaining, but not stellar.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Originally posted on Facebook on 9 February 2010 at 00:03&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 10 Nov 2013 00:00:00 -0500</pubDate>
+        <link>http://ryantmer.com/2013/11/10/vsromophas-the-boondock-saints/</link>
+        <guid isPermaLink="true">http://ryantmer.com/2013/11/10/vsromophas-the-boondock-saints/</guid>
+        
         
       </item>
     
@@ -491,12 +498,10 @@ Interface - PCI Express 3.0 x16: This is the slot it goes into on the motherboar
 
 &lt;p&gt;&lt;em&gt;Originally posted on Facebook on 3 February 2010 at 19:48&lt;/em&gt;&lt;/p&gt;
 </description>
-        <pubDate>Sun, 10 Nov 2013 15:03:48 -0500</pubDate>
-        <link>http://ryantmer.com/vsromophas/2013/11/10/vsromophas-starship-troopers/</link>
-        <guid isPermaLink="true">http://ryantmer.com/vsromophas/2013/11/10/vsromophas-starship-troopers/</guid>
+        <pubDate>Sun, 10 Nov 2013 00:00:00 -0500</pubDate>
+        <link>http://ryantmer.com/2013/11/10/vsromophas-starship-troopers/</link>
+        <guid isPermaLink="true">http://ryantmer.com/2013/11/10/vsromophas-starship-troopers/</guid>
         
-        
-        <category>vsromophas</category>
         
       </item>
     
@@ -512,12 +517,27 @@ Interface - PCI Express 3.0 x16: This is the slot it goes into on the motherboar
 
 &lt;p&gt;&lt;em&gt;Originally posted on Facebook on 4 February 2010 at 20:28&lt;/em&gt;&lt;/p&gt;
 </description>
-        <pubDate>Sun, 10 Nov 2013 15:02:58 -0500</pubDate>
-        <link>http://ryantmer.com/vsromophas/2013/11/10/vsromophas-fight-club/</link>
-        <guid isPermaLink="true">http://ryantmer.com/vsromophas/2013/11/10/vsromophas-fight-club/</guid>
+        <pubDate>Sun, 10 Nov 2013 00:00:00 -0500</pubDate>
+        <link>http://ryantmer.com/2013/11/10/vsromophas-fight-club/</link>
+        <guid isPermaLink="true">http://ryantmer.com/2013/11/10/vsromophas-fight-club/</guid>
         
         
-        <category>vsromophas</category>
+      </item>
+    
+      <item>
+        <title>Very short reviews of movies other people have already seen: Behind Enemy Lines [2001]</title>
+        <description>&lt;p&gt;Based on a fictional US Navy F-18 navigator who gets shot down over a supposedly DMZ during what is supposedly the Bosnian conflict of the early ’90s.&lt;/p&gt;
+
+&lt;p&gt;Good enough storyline, somewhat original. Cheesy special effects (it was almost 10 years ago, you know), and too many clichés. Evil Russian sniper anyone?&lt;/p&gt;
+
+&lt;p&gt;5.2445/10, for lack of imagination and trying to make me take Owen Wilson seriously.&lt;/p&gt;
+
+&lt;p&gt;&lt;em&gt;Originally posted on Facebook on 2 February 2010 at 19:42&lt;/em&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 10 Nov 2013 00:00:00 -0500</pubDate>
+        <link>http://ryantmer.com/2013/11/10/vsromophas-behind-enemy-lines/</link>
+        <guid isPermaLink="true">http://ryantmer.com/2013/11/10/vsromophas-behind-enemy-lines/</guid>
+        
         
       </item>
     
@@ -531,48 +551,10 @@ Interface - PCI Express 3.0 x16: This is the slot it goes into on the motherboar
 
 &lt;p&gt;&lt;em&gt;Originally posted on Facebook on 4 February 2010 at 23:58&lt;/em&gt;&lt;/p&gt;
 </description>
-        <pubDate>Sat, 09 Nov 2013 19:55:43 -0500</pubDate>
-        <link>http://ryantmer.com/vsromophas/2013/11/09/vsromophas-500-days-of-summer/</link>
-        <guid isPermaLink="true">http://ryantmer.com/vsromophas/2013/11/09/vsromophas-500-days-of-summer/</guid>
+        <pubDate>Sun, 10 Nov 2013 00:00:00 -0500</pubDate>
+        <link>http://ryantmer.com/2013/11/10/vsromophas-500-days-of-summer/</link>
+        <guid isPermaLink="true">http://ryantmer.com/2013/11/10/vsromophas-500-days-of-summer/</guid>
         
-        
-        <category>vsromophas</category>
-        
-      </item>
-    
-      <item>
-        <title>Very short reviews of movies other people have already seen: Top Gun [1986]</title>
-        <description>&lt;p&gt;“This film stars Tom Cruise, Kelly McGillis, Anthony Edwards, Val Kilmer, Meg Ryan, and Tom Skerritt. Cruise plays Lieutenant Pete “Maverick” Mitchell, a young Naval aviator on board the aircraft carrier USS Enterprise. He and his Naval Flight Officer (Radar Intercept Officer - the “RIO” - the “back seater” in the two-man F-14 Tomcat) Lt. j.g. Nick “Goose” Bradshaw are given the chance to train at the Navy’s Fighter Weapons School, after the pilot above him in the squadron rankings resigns from duty following a very stressful mission. This film depicts Maverick’s progress through the training, his romance with a female instructor, and his overcoming a crisis of confidence following a fatal training accident.” - http://en.wikipedia.org/wiki/Top_gun&lt;/p&gt;
-
-&lt;p&gt;No idea why this film was so popular. Maybe it’s just the 80s hairstyles, but sitting through the entire length of this film was actually quite excruciating. Not sure if it’s action, romance, or just a blatant US Navy recruiting project.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Originally posted on Facebook on 5 February 2010 at 20:28&lt;/em&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 09 Nov 2013 19:54:11 -0500</pubDate>
-        <link>http://ryantmer.com/vsromophas/2013/11/09/vsromophas-top-gun/</link>
-        <guid isPermaLink="true">http://ryantmer.com/vsromophas/2013/11/09/vsromophas-top-gun/</guid>
-        
-        
-        <category>vsromophas</category>
-        
-      </item>
-    
-      <item>
-        <title>Very short reviews of movies other people have already seen: The Boondock Saints [1999]</title>
-        <description>&lt;p&gt;“The Boondock Saints is a 1999 crime thriller film written and directed by Troy Duffy. The film stars Sean Patrick Flanery and Norman Reedus as Catholic Irish American fraternal twins, Conner and Murphy MacManus, who become vigilantes after killing two members of the Russian Mafia in self-defense. After a “message from God”, the brothers, together with their friend David Della Rocco, set out to rid their home city of Boston, Massachusetts of crime and evil; all the while being pursued by Special Agent Paul Smecker (Willem Dafoe).”&lt;/p&gt;
-
-&lt;p&gt;Irish wit. Excessive use of the word “fuck” (in all senses). Bloody violence. And Willem DaFoe dressed as a woman. What’s not to like? Well, not overly great storytelling and a sense that this film has no point is what’s not to like.&lt;/p&gt;
-
-&lt;p&gt;6/10. Entertaining, but not stellar.&lt;/p&gt;
-
-&lt;p&gt;&lt;em&gt;Originally posted on Facebook on 9 February 2010 at 00:03&lt;/em&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 09 Nov 2013 19:53:24 -0500</pubDate>
-        <link>http://ryantmer.com/vsromophas/2013/11/09/vsromophas-the-boondock-saints/</link>
-        <guid isPermaLink="true">http://ryantmer.com/vsromophas/2013/11/09/vsromophas-the-boondock-saints/</guid>
-        
-        
-        <category>vsromophas</category>
         
       </item>
     

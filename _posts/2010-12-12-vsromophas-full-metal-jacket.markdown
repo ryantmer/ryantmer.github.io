@@ -1,9 +1,6 @@
 ---
 layout: post
 title: "Very Short Reviews Of Movies Other People Have Already Seen: Full Metal Jacket [1987]"
-date: 2010-12-12 21:48:25 +0000
-comments: true
-categories: vsromophas
 ---
 
 "Full Metal Jacket is a 1987 war film by Stanley Kubrick, based on the novel The Short-Timers by Gustav Hasford. The title refers to the full metal jacket bullet used by infantry riflemen. The film follows a squad of U.S. Marines through their training and depicts some of the experiences of two of them in the Tet Offensive (1968) during the Vietnam War." - http://en.wikipedia.org/wiki/Full_Metal_Jacket

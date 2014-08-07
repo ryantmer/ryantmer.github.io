@@ -1,9 +1,6 @@
 ---
 layout: post
 title: "Sometimes..."
-date: 2011-08-01 05:58:05 +0000
-comments: true
-categories: notes
 ---
 
 Sometimes, life doesn't go the way you want it to.

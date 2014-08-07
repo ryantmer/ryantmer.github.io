@@ -1,9 +1,6 @@
 ---
 layout: post
 title: "Beginner PC Builder's Guide"
-date: 2014-03-20 16:50:30 -0400
-comments: true
-categories: notes
 ---
 
 Writing this as a guide for a first-time PC builder. Usually these guides are just lists of parts to put together, but I'm going to try to make this one more detailed and descriptive. Parts listed here go for about $800 on [Newegg.ca][]. For each of these items, go to the Newegg page and click the Specifications tab; that's where the specs I'm describing are listed.

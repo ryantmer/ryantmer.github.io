@@ -1,9 +1,6 @@
 ---
 layout: post
 title: "Very short reviews of movies other people have already seen: Michael Clayton [2007]"
-date: 2013-11-09 00:43:06 +0000
-comments: true
-categories: vsromophas
 ---
 
 "Michael Clayton is a 2007 American dramatic film written and directed by Tony Gilroy and produced by Sydney Pollack. It stars George Clooney, Tom Wilkinson, Tilda Swinton, and Sydney Pollack. It chronicles the attempts of attorney Michael Clayton to cope with a colleague's apparent mental breakdown and the corruption and murderous intrigue of a major client of his law firm being sued in a class action case involving toxic agrochemicals." - http://en.wikipedia.org/wiki/Michael_Clayton_(film)

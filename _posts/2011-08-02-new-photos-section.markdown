@@ -1,9 +1,6 @@
 ---
 layout: post
 title: "New photos section"
-date: 2011-08-02 23:05:27 +0000
-comments: true
-categories: news
 ---
 
 Completely revamped the photos section of this site. If you find any anomalies, let me know. Some stuff is still in progress.

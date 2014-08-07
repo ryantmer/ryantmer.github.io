@@ -1,9 +1,6 @@
 ---
 layout: post
 title: "Movie stubs"
-date: 2010-04-13 19:34:11 +0000
-comments: true
-categories: notes
 ---
 
 Found a bunch of movie stubs in a drawer in my room. For no reason other than boredom and too much free time, they are (listed by year):

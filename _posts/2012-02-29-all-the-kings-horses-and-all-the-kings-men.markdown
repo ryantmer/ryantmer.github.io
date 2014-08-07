@@ -1,9 +1,6 @@
 ---
 layout: post
 title: "All the king's horses and all the king's men couldn't solve the world's problems – so why do you think you can?"
-date: 2012-02-29 01:19:14 +0000
-comments: true
-categories: notes
 ---
 
 Every day on my way to work, I bike past an elementary school. When I'm running a bit late (which happens all too often), I bike past right before the bell rings. I hear laughing and yelling, the usual jovial sounds of youth and whatnot. I see kids running around, having fun, hitting each other with baseball bats with nails in them (it's a tough hood). Basically, I see and hear the very definition of being carefree. I know this question has become cliché to the point that saying it is cliché is clichéd, but seriously – what happened to us? When did the world's problems become our problems?

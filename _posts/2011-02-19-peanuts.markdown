@@ -1,9 +1,6 @@
 ---
 layout: post
 title: "Peanuts"
-date: 2011-02-19 06:12:35 +0000
-comments: true
-categories: notes
 ---
 
 If I were allergic, I would not mind.

@@ -1,9 +1,6 @@
 ---
 layout: post
 title: "You learn something new every day - Overlaying videos with ffmpeg"
-date: 2012-03-14 18:22:43 +0000
-comments: true
-categories: ylsned
 ---
 
 ffmpeg (http://ffmpeg.org/) is, without a doubt, the best video conversion tool available. Got something preferred? You're either wrong, or (more likely), the tool you're using actually uses ffmpeg in the background. Unfortunately, it's not the most well-documented tool available, so some tasks (like overlaying two videos so they play side-by-side) can be somewhat difficult. Through pure coincidence and nothing else, this is how you do said overlay. In this example, two videos will be scaled down to 640x360, then overlaid such that they appear side-by-side.

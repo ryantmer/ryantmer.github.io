@@ -1,9 +1,6 @@
 ---
 layout: post
 title: "Psychology? That's the (easiest|hardest) degree ever!"
-date: 2013-05-26 23:36:14 +0000
-comments: true
-categories: notes
 ---
 
 "Possible things, then, will be all those things that are not impossible things - that is, all those things that are either contingent or necessary. If there are no necessary things then all possible things will be contingent and all contingent things will be possible. If there is a necessary thing, however, then there will be a possible thing which is not contingent." - Philosophy: The Quest For Truth (Pojman, Vaughn)

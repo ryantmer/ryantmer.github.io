@@ -1,9 +1,6 @@
 ---
 layout: post
 title: "Five Thousand In Four"
-date: 2014-06-10 18:18:45 -0400
-comments: true
-categories: notes
 ---
 
 From the 5th to the 9th of this month, I drove 5000km (a bit more, in fact) across a good chunk of Canada via the Trans-Canada Highway. Some things happened, and I tweeted about them (in a safe way, of course).

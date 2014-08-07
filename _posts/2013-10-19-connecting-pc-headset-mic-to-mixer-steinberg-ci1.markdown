@@ -1,9 +1,6 @@
 ---
 layout: post
 title: "Connecting PC Headset Mic to Mixer (Steinberg CI1)"
-date: 2013-10-19 22:40:52 +0000
-comments: true
-categories: notes
 ---
 
 This is what I would thoroughly classify under, "rare, but irksome" problems.

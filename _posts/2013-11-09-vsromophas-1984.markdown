@@ -1,9 +1,6 @@
 ---
 layout: post
 title: "Very short reviews of movies other people have already seen: 1984 [1984]"
-date: 2013-11-09 00:42:22 +0000
-comments: true
-categories: vsromophas
 ---
 
 "Nineteen Eighty-Four (sometimes 1984) is a British film, released in 1984, based upon George Orwell's novel of the same name, following the life of Winston Smith in Oceania, a country run by a totalitarian government. The film was directed by Michael Radford and stars John Hurt, Richard Burton (in his last film role) and Suzanna Hamilton." - http://en.wikipedia.org/wiki/1984_(1984_film)

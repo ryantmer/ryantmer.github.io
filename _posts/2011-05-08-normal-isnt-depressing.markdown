@@ -1,9 +1,6 @@
 ---
 layout: post
 title: "Normal isn't depressing"
-date: 2011-05-08 07:03:42 +0000
-comments: true
-categories: notes
 ---
 
 Having spent the last two days at a NAPEG (http://www.napeg.nt.ca/) conference, I've heard some fairly inspiring, informative and motivating speeches and presentations. However, one particular sentence spoken by one presenter really got me thinking. Oddly, it had nothing to do with her presentation, and in fact was, in context, a largely meaningless phrase - "Otherwise it'll just be normal, and normal is depressing." Yes, this is one of those weird things that gets me thinking. In order to do a traditional thought analysis at this point, it would probably be advisable to get out a dictionary and define "normal", as well as explore what depression is. However, I'm not a linguist, nor am I a doctor, so going into such activites would be largely pointless, since I aim to thoroughly ignore both definitions and research. (Facts? Pfft, you can use facts to prove anything!)

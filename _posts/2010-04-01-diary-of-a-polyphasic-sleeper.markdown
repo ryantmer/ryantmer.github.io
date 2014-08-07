@@ -1,9 +1,6 @@
 ---
 layout: post
 title: "Diary of a Polyphasic Sleeper, part II - Der Untergang/Das Ende"
-date: 2010-04-01 22:03:37 +0000
-comments: true
-categories: notes
 ---
 
 (Originally published December 5th, 2009)

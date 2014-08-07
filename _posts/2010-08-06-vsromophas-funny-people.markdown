@@ -1,9 +1,6 @@
 ---
 layout: post
 title: "Very Short Reviews Of Movies Other People Have Already Seen: Funny People [2009]"
-date: 2010-08-06 03:10:08 +0000
-comments: true
-categories: vsromophas
 ---
 
 "Funny People is a 2009 American comedy-drama film written, co-produced, and directed by Judd Apatow, and starring Adam Sandler, Seth Rogen, Jonah Hill, Aubrey Plaza and Aziz Ansari as stand-up comedians. The film was released on 31 July 2009 in North America, and on 28 August 2009 in the United Kingdom. Funny People implements more dramatic elements than seen in Apatow's previous films. The film was co-produced by Apatow Productions and Mr. Madison 23 Productions, a subsidiary of Sandler's company Happy Madison. Universal Pictures and Columbia Pictures co-financed the film and Universal also served as a worldwide distributor." - http://en.wikipedia.org/wiki/Funny_people

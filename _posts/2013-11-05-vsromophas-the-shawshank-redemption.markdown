@@ -1,9 +1,6 @@
 ---
 layout: post
 title: "Very Short Reviews of Movies Other People Have Already Seen: The Shawshank Redemption [1994]"
-date: 2013-11-05 19:35:04 +0000
-comments: true
-categories: vsromophas
 ---
 
 "The Shawshank Redemption is a 1994 drama film written and directed by Frank Darabont. It is an adaptation of the Stephen King novella Rita Hayworth and Shawshank Redemption. The film stars Tim Robbins as Andrew "Andy" Dufresne and Morgan Freeman as Ellis Boyd "Red" Redding. The film portrays Andy, who spends nearly two decades in Shawshank State Prison, a fictional penitentiary in Maine, and his friendship with Red, a fellow inmate. Despite a lukewarm box office reception that was barely enough to cover its budget, the film received favorable reviews from critics, multiple award nominations, and has since enjoyed a remarkable life on cable television, VHS, DVD, and Blu-ray. This revival is reflected in its high placement on various lists of great movies." - http://en.wikipedia.org/wiki/The_Shawshank_Redemption

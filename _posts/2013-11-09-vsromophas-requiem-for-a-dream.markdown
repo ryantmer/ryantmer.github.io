@@ -1,9 +1,6 @@
 ---
 layout: post
 title: "Very short reviews of movies other people have already seen: Requiem for a Dream [2000]"
-date: 2013-11-09 00:40:17 +0000
-comments: true
-categories: vsromophas
 ---
 
 “Requiem for a Dream is a 2000 film adaptation of the 1978 novel of the same name. [...] The film depicts different forms of addiction, leading to the characters’ imprisonment in a dream world of delusion and reckless desperation that is subsequently overtaken and devastated by reality.” – http://en.wikipedia.org/wiki/Requiem_for_a_Dream

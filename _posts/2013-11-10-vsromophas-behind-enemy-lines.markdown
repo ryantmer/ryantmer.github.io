@@ -1,9 +1,6 @@
 ---
 layout: post
 title: "Very short reviews of movies other people have already seen: Behind Enemy Lines [2001]"
-date: 2013-11-10 20:04:45 +0000
-comments: true
-categories: vsromophas
 ---
 
 Based on a fictional US Navy F-18 navigator who gets shot down over a supposedly DMZ during what is supposedly the Bosnian conflict of the early '90s.

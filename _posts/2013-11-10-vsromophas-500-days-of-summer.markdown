@@ -1,9 +1,6 @@
 ---
 layout: post
 title: "Very short reviews of movies other people have already seen: (500) Days of Summer [2009]"
-date: 2013-11-10 00:55:43 +0000
-comments: true
-categories: vsromophas
 ---
 
 "(500) Days of Summer is a 2009 romantic-drama-comedy film. It was written by Scott Neustadter and Michael H. Weber, directed by Marc Webb, produced by Mark Waters, and stars Joseph Gordon-Levitt and Zooey Deschanel. The story is presented in a nonlinear narrative structure and depicts a memory-driven look at a failed romance." - http://en.wikipedia.org/wiki/(500)_Days_of_Summer

@@ -1,9 +1,6 @@
 ---
 layout: post
 title: "Very Short Reviews Of Movies Other People Have Already Seen: 9 [2009]"
-date: 2010-07-05 01:10:40 +0000
-comments: true
-categories: vsromophas
 ---
 
 [Wikipedia is down at the moment, so I can't plagiarize a description from it]

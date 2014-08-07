@@ -1,9 +1,6 @@
 ---
 layout: post
 title: "Why Billy (Mederbil) And I Should Rule The World"
-date: 2012-02-15 16:00:11 +0000
-comments: true
-categories: notes
 ---
 
 Billy: "I see you drivin'

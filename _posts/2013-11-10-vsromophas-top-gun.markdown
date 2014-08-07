@@ -1,9 +1,6 @@
 ---
 layout: post
 title: "Very short reviews of movies other people have already seen: Top Gun [1986]"
-date: 2013-11-10 00:54:11 +0000
-comments: true
-categories: vsromophas
 ---
 
 "This film stars Tom Cruise, Kelly McGillis, Anthony Edwards, Val Kilmer, Meg Ryan, and Tom Skerritt. Cruise plays Lieutenant Pete "Maverick" Mitchell, a young Naval aviator on board the aircraft carrier USS Enterprise. He and his Naval Flight Officer (Radar Intercept Officer - the "RIO" - the "back seater" in the two-man F-14 Tomcat) Lt. j.g. Nick "Goose" Bradshaw are given the chance to train at the Navy's Fighter Weapons School, after the pilot above him in the squadron rankings resigns from duty following a very stressful mission. This film depicts Maverick's progress through the training, his romance with a female instructor, and his overcoming a crisis of confidence following a fatal training accident." - http://en.wikipedia.org/wiki/Top_gun

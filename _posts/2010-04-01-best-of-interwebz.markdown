@@ -1,9 +1,6 @@
 ---
 layout: post
 title: "Best of Interwebz"
-date: 2010-04-01 22:11:36 +0000
-comments: true
-categories: notes
 ---
 
 (Originally published March 13th, 2009)

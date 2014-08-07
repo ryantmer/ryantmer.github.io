@@ -1,9 +1,6 @@
 ---
 layout: post
 title: "100 Things"
-date: 2010-10-14 22:13:28 +0000
-comments: true
-categories: notes
 ---
 
 Since everyone likes to think they're so deep with the crap they put on Facebook, I decided to give it a shot. I decided to write 100 things about myself. Surprisingly hard.

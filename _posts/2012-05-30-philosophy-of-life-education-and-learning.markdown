@@ -1,9 +1,6 @@
 ---
 layout: post
 title: "Philosophy of Life - Education and Learning"
-date: 2012-05-30 16:16:53 +0000
-comments: true
-categories: notes
 ---
 
 *This was written as an assignment for my grade 12 religion class, which I recently re-discovered. Interesting for me to read, to see how it aligns with that which I believe now, but likely boring as hell for others. Enjoy at your own risk.*

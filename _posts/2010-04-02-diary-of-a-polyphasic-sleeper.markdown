@@ -1,9 +1,6 @@
 ---
 layout: post
 title: "Diary of a Polyphasic Sleeper, part I - Der Anfang"
-date: 2010-04-02 03:59:13 +0000
-comments: true
-categories: notes
 ---
 
 So, this note is written for nobody in particular. More just a reference.
