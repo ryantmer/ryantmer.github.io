@@ -17,8 +17,10 @@ So, I found a way. It takes the mic signal from the 3.5mm TRS connector from the
 
 The circuit diagram is as follows:
 
-![Circuit diagram for amp](http://mahler.ca/notablog/wp-content/uploads/2013/10/PC-Headset-to-Mixer-amp.jpg)
+![Circuit diagram for amp](/assets/images/PC-Headset-to-Mixer-Diagram.jpg)
 
 That's uhh... That's pretty much it. I put it into a fancy little project box, to make it fancy, as below. Aside from that, just connect the 9V battery whenever you need to use the mic, plug your headset into the 3.5mm end, then plug the 1/4" side into the mixer, and you should be good to go!
+
+![Picture of amp](/assets/images/PC-Headset-to-Mixer-Picture.jpg)
 
 Fancy.

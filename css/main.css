@@ -13,14 +13,17 @@ body {
   font-size: 16px;
   line-height: 1.5;
   font-weight: 300;
-  background-color: #fdfdfd;
+  background-color: #ffffff;
 }
 
-h1, h2, h3, h4, h5, h6 { font-size: 100%; font-weight: 400; }
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: 400;
+}
 
-a         { color: #2a7ae2; text-decoration: none; }
-a:hover   { color: #000; text-decoration: underline; }
-a:visited { color: #205caa; }
+a         { color: #00a0ff; text-decoration: none; }
+a:hover   { color: #ff8c00; text-decoration: underline; }
+a:visited { color: #00a0ff; }
 
 /* Utility */
 
@@ -41,8 +44,8 @@ a:visited { color: #205caa; }
 /* Site header */
 
 .site-header {
-  border-top: 5px solid #333;
-  border-bottom: 1px solid #e8e8e8;
+  border-top: 5px solid #00a0ff;
+  border-bottom: 1px solid #00a0ff;
   min-height: 56px;
   background-color: white;
 }

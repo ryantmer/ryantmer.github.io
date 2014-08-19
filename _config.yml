@@ -16,3 +16,9 @@ safe: false
 exclude: []
 include: []
 timezone: America/Toronto
+
+collections:
+    vsromophas:
+        output: false
+    archive:
+        output: false
