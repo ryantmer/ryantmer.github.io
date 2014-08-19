@@ -6,7 +6,7 @@ permalink: /projects/
 
 I'm a person that always has several projects on the go, from day-long sprints to multi-year marathons. This is a sort-of-list of some of the things I'm currently working on.
 
-# Software/Hardware Projects #
+## Software/Hardware Projects ##
 
 ### ToodleDo10 ###
 
@@ -20,7 +20,7 @@ The group I was in created an automated telescope which works with Google Sky to
 
 Our design prototype for the symposium was a C# application that communicated with the telescope via USB, with the hardware side being controlled by an Arduino. My eventual idea is to move it to a smartphone app that communicates with the Arduino via Bluetooth.
 
-# Vehicles #
+## Vehicles ##
 
 I've got a few vehicles that I own and maintain myself. That said, these aren't just ways for me to get around - they're also sources of some fun projects!
 
@@ -36,7 +36,7 @@ This is a confusing bike, since nobody seems to believe that it exists. I'm stil
 
 This Truckosaurus is not fuel efficient, rarely practical, and has crash safety ratings that certainly leave something to be desired. That said, its large size does make it ideal for moving lots of people or stuff, and has already done a half dozen moves for people in the few months that I've had it. Hoping to build a device that reads the OBD-II bus from this vehicle to give more information, such as fuel consumption (which is terrible) and acceleration (which is slow).
 
-# Artistic #
+## Artistic ##
 
 ### Guitar ###
 
