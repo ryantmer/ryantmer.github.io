@@ -8,9 +8,9 @@ I'm a person that always has several projects on the go, from day-long sprints t
 
 ## Software/Hardware Projects ##
 
-### ToodleDo10 ###
+### Sync for Toodledo ###
 
-I've been using [ToodleDo](http://www.toodledo.com) for a couple of years now as a to-do list and task manager. It's got a lot of features that I like, but the available BlackBerry 10 apps that interface with it aren't really to my liking, so I decided to make my own. I'm quite a fan of the Cascades look and feel on BB10, so I made a native app that interfaces with ToodleDo. See [my Toodledo10 page](http://www.ryantmer.com/toodledo10) for more info, and to get the app!
+I've been using [ToodleDo](http://www.toodledo.com) for a couple of years now as a to-do list and task manager. It's got a lot of features that I like, but the available BlackBerry 10 apps that interface with it aren't really to my liking, so I decided to make my own. I'm quite a fan of the Cascades look and feel on BB10, so I made a native app that interfaces with ToodleDo. See [my Sync for Toodledo page](http://www.ryantmer.com/syncfortoodledo) for more info, and to get the app!
 
 ### AutoSky ###
 
