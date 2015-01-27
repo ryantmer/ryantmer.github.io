@@ -2,6 +2,19 @@ html, body {
     background-color: black;
 }
 
+.star {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background-color: yellow;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-left: -50px; /* -0.5*width */
+    margin-top: -50px; /* -0.5*height */
+    box-shadow: 0 0 1em 1em yellow;
+}
+
 .planet {
     position: absolute;
     top: 50%;
@@ -27,12 +40,6 @@ html, body {
 }
 
 #sun {
-    background-color: yellow;
-    width: 100px;
-    height: 100px;
-    margin-left: -50px;
-    margin-top: -50px;
-    box-shadow: 0 0 1em 1em yellow;
 }
 
 #mercury-orbit {
@@ -40,7 +47,8 @@ html, body {
     height: 200px;
     margin-top: -100px;
     margin-left: -100px;
-    -webkit-animation: spin-right 2s linear infinite;
+    -webkit-animation: spin-right linear infinite;
+    -webkit-animation-duration: 2s;
     animation: spin-right 2s linear infinite;
 }
 #mercury {
