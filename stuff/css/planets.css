@@ -2,6 +2,24 @@ html, body {
     background-color: black;
 }
 
+h1, h2 {
+    color: white;
+}
+
+.planet-options {
+    clear: left;
+    border: 1px solid white;
+    font-family: Open Sans, sans-serif;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.planet-options h2 {
+    color: black;
+}
+
 .star {
     position: absolute;
     top: 50%;
@@ -37,6 +55,15 @@ html, body {
     margin-left: -100px;
     border: 2px dotted white;
     border-radius: 50%;
+}
+
+#controls {
+    font-family: Open Sans, sans-serif;
+    position: relative;
+    z-index: 1;
+    float: left;
+    padding: 5px;
+    text-align: center;
 }
 
 #sun {
