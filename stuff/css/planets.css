@@ -15,16 +15,6 @@ footer {
     font-size: 0.6em;
 }
 
-.planet-options {
-    clear: left;
-    color: black;
-    font-family: Open Sans, sans-serif;
-    border-radius: 5px;
-    padding: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-
 .star {
     position: absolute;
     top: 50%;
@@ -64,6 +54,15 @@ footer {
     animation: spin-right 2s linear infinite;
 }
 
+.planet-options {
+    clear: left;
+    color: black;
+    font-family: Open Sans, sans-serif;
+    border-radius: 5px;
+    padding: 5px;
+    margin:5px;
+}
+
 #controls {
     color: white;
     font-family: Open Sans, sans-serif;
@@ -72,7 +71,7 @@ footer {
     position: relative;
     z-index: 1;
     float: left;
-    padding: 5px;
+    margin: 5px;
     text-align: center;
     width: 300px;
 }
