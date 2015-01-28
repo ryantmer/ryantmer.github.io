@@ -1,3 +1,21 @@
+var yearFactor = 50;
+
+var allPlanets = [];
+var earth = {};
+earth['name'] = "earth";
+earth['diameter'] = 50;
+earth['orbit'] = 400;
+earth['year'] = 365;
+earth['colour'] = "blue";
+allPlanets.push(earth);
+var mercury = {};
+mercury['name'] = "mercury";
+mercury['diameter'] = 10;
+mercury['orbit'] = 300;
+mercury['year'] = 88;
+mercury['colour'] = "brown";
+allPlanets.push(mercury);
+
 var colours = ["AliceBlue","AntiqueWhite","Aqua","Aquamarine","Azure",
             "Beige","Bisque","BlanchedAlmond","Blue","BlueViolet",
             "Brown","BurlyWood","CadetBlue","Chartreuse","Chocolate","Coral",
@@ -35,6 +53,10 @@ function changeColours() {
     }
 }
 
+function reset() {
+
+}
+
 function updateDiameter(event) {
     var planet = document.getElementById(event.target.id.replace("-size", ""));
     var orbit = document.getElementById(event.target.id.replace("-size", "-orbit"))
@@ -47,6 +69,36 @@ function updateDiameter(event) {
     planet.style.setProperty('margin-left', -newSize/2+"px");
     planet.style.setProperty('margin-top', -(orbitSize/2+newSize/2)+"px");
     sizeLabel.innerHTML = "Diameter: " + window.getComputedStyle(planet).width;
+}
+
+function createPlanets() {
+    var body = document.getElementsByTagName("body")[0];
+    for (var i = 0; i < allPlanets.length; ++i) {
+        var dia = allPlanets[i]['diameter'];
+        var orb = allPlanets[i]['orbit'];
+
+        var planetDiv = document.createElement("div");
+        planetDiv.setAttribute("class", "planet");
+        planetDiv.setAttribute("id", allPlanets[i]['name']);
+        planetDiv.style.setProperty("width", dia+"px");
+        planetDiv.style.setProperty("height", dia+"px");
+        planetDiv.style.setProperty("background-color", allPlanets[i]['colour']);
+        planetDiv.style.setProperty("margin-top", -(dia/2+orb/2)+"px");
+        planetDiv.style.setProperty("margin-left", -dia/2+"px");
+
+        var orbitDiv = document.createElement("div");
+        orbitDiv.setAttribute("class", "orbit");
+        orbitDiv.setAttribute("id", allPlanets[i]['name']+"-orbit");
+        orbitDiv.style.setProperty("width", orb+"px");
+        orbitDiv.style.setProperty("height", orb+"px");
+        orbitDiv.style.setProperty("margin-top", -orb/2+"px");
+        orbitDiv.style.setProperty("margin-left", -orb/2+"px");
+        orbitDiv.style.setProperty("-webkit-animation-duration",
+            allPlanets[i]['year']/yearFactor+"s");
+
+        orbitDiv.appendChild(planetDiv);
+        body.appendChild(orbitDiv);
+    }
 }
 
 function createOptionPanel() {
@@ -86,6 +138,7 @@ function createOptionPanel() {
 }
 
 function setup() {
+    createPlanets();
     createOptionPanel();
 }
 

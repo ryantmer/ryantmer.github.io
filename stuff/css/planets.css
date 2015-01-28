@@ -55,6 +55,8 @@ h1, h2 {
     margin-left: -100px;
     border: 2px dotted white;
     border-radius: 50%;
+    -webkit-animation: spin-right 2s linear infinite;
+    animation: spin-right 2s linear infinite;
 }
 
 #controls {
@@ -66,39 +68,6 @@ h1, h2 {
     text-align: center;
 }
 
-#sun {
-}
-
-#mercury-orbit {
-    width: 200px;
-    height: 200px;
-    margin-top: -100px;
-    margin-left: -100px;
-    -webkit-animation: spin-right linear infinite;
-    -webkit-animation-duration: 2s;
-    animation: spin-right 2s linear infinite;
-}
-#mercury {
-    background-color: brown;
-    width: 10px;
-    height: 10px;
-    margin-top: -105px;
-    margin-left: -5px;
-}
-
-#earth-orbit {
-    width: 400px;
-    height: 400px;
-    margin-top: -200px;
-    margin-left: -200px;
-    -webkit-animation: spin-right 10s linear infinite;
-    animation: spin-right 10s linear infinite;
-}
-#earth {
-    background-color: blue;
-    margin-top: -225px;
-    margin-left: -50px;
-}
 @-webkit-keyframes spin-right {
     100% {
         -webkit-transform: rotate(360deg);
