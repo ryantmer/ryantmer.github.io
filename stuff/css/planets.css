@@ -58,7 +58,8 @@ input[type="number"] {
     height: 200px;
     margin-top: 100px;
     margin-left: 100px;
-    border: 1px dotted white;
+    border: dotted white;
+    border-width: 0px;
     border-radius: 50%;
     -webkit-animation: spin-right 2s linear infinite;
     animation: spin-right 2s linear infinite;
