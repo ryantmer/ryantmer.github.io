@@ -140,6 +140,14 @@ function showHideOrbits(checkbox) {
     }
 }
 
+function deletePlanet(event) {
+    delete allPlanets[event.target.id.replace("-delete", "")];
+    var body = document.getElementsByTagName("body")[0];
+    body.removeChild(document.getElementById(event.target.id.replace("-delete", "-orbit")));
+    var settings = document.getElementById("settings");
+    settings.removeChild(document.getElementById(event.target.id.replace("-delete", "-options")));
+}
+
 function updateSun() {
     var body = document.getElementsByTagName("body")[0];
     var sunDiv = document.getElementById("sun");
@@ -205,6 +213,16 @@ function updateOptionsPanel() {
         }
         div.style.setProperty('background-color', planet["colour"]);
 
+        var e = document.getElementById(pName+"-delete");
+        if (!e) {
+            var e = document.createElement("input");
+            e.setAttribute("type", "button");
+            e.setAttribute("class", "delete-button");
+            e.setAttribute("id", pName+"-delete");
+            e.setAttribute("value", "Remove");
+            e.addEventListener("click", deletePlanet);
+            div.appendChild(e);
+        }
         var e = document.getElementById(pName+"-label");
         if (!e) {
             var e = document.createElement("b");

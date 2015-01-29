@@ -25,6 +25,11 @@ input[type="number"] {
     margin: 5px;
 }
 
+.delete-button {
+    display: block;
+    border: none;
+}
+
 .star {
     position: absolute;
     top: 50%;
