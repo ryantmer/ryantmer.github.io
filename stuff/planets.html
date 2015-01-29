@@ -5,13 +5,13 @@
     </head>
     <body>
         <div id="controls-box">
-            <input type="checkbox" id="hide-settings" onclick="showHideSettings(this);">
+            <input type="checkbox" id="hide-settings" checked="true" onclick="showHideSettings(this);">
             <label for="hide-settings" id="hide-settings-label">Hide</label>
-            <div id="settings">
+            <div id="settings" style="display:none;">
                 <h2>Planet Options</h2>
                 <input type="checkbox" id="show-orbits" onclick="showHideOrbits(this);">
                 <label for="show-orbits" id="show-orbits-label">Show Orbits</label><br/>
-                Period: 1s =<input type="number" id="period-factor" min="0">days<br/>
+                Period: 1s =<input type="number" id="period-factor" min="0">seconds<br/>
                 Planet Diameter: 1px =<input type="number" id="diameter-factor" min="0">km<br/>
                 Sun Diameter: 1px =<input type="number" id="sun-diameter-factor" min="0">km<br/>
                 Orbit: 1px =<input type="number" id="orbit-factor" min="0">km<br/>
