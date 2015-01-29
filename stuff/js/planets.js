@@ -1,74 +1,48 @@
-var yearFactor = 0.02;
-var diameterFactor = 1;
-var sunDiameterFactor = 0.01;
-var orbitFactor = 0.0002;
+var periodFactor = 1e6;
+var diameterFactor = 1e3;
+var sunDiameterFactor = 100e3; //Sun has its own scaling factor, due to its size
+var orbitFactor = 1e6;
+var G = 6.67384e-11;
 
-//Diameter in thousands of km
-//Orbit diameter in thousands of km
-//Years are in days
+//Diameter, orbit in km; mass in kg; period in seconds
 var sun = {};
 sun['name'] = "sun";
-sun['diameter'] = 695.8*2;
-sun['orbit'] = 0;
-sun['year'] = 0;
+sun['diameter'] = 695800*2;
 sun['colour'] = "yellow";
-var allPlanets = [];
+sun['mass'] = 1.989e30;
+var allPlanets = {};
 var mercury = {};
 mercury['name'] = "Mercury";
-mercury['diameter'] = 2.44*2;
-mercury['orbit'] = 58000*2;
-mercury['year'] = 88;
+mercury['diameter'] = 2440*2;
 mercury['colour'] = "brown";
-allPlanets.push(mercury);
+mercury['mass'] = 328.5e21;
+mercury['period'] = 7603200;
+mercury['orbit'] = 58000000*2;
+allPlanets['Mercury'] = mercury;
 var venus = {};
 venus['name'] = "Venus";
-venus['diameter'] = 6.052*2;
-venus['orbit'] = 108000*2;
-venus['year'] = 224.7;
+venus['diameter'] = 6052*2;
 venus['colour'] = "darkolivegreen";
-allPlanets.push(venus);
+venus['mass'] = 4.867e24;
+venus['period'] = 19414080;
+venus['orbit'] = 108000000*2;
+allPlanets['Venus'] = venus;
 var earth = {};
 earth['name'] = "Earth";
-earth['diameter'] = 6.371*2;
-earth['orbit'] = 150000*2;
-earth['year'] = 365.25;
-earth['colour'] = "blue";
-allPlanets.push(earth);
+earth['diameter'] = 6371*2;
+earth['colour'] = "powderblue";
+earth['mass'] = 5.972e24;
+earth['period'] = 31557600;
+earth['orbit'] = 150000000*2;
+allPlanets['Earth'] = earth;
 var mars = {};
 mars['name'] = "Mars";
-mars['diameter'] = 3.390*2;
-mars['orbit'] = 228000*2;
-mars['year'] = 687;
+mars['diameter'] = 3390*2;
 mars['colour'] = "red";
-allPlanets.push(mars);
-var jupiter = {};
-jupiter['name'] = "Jupiter";
-jupiter['diameter'] = 69.911*2;
-jupiter['orbit'] = 778000*2;
-jupiter['year'] = 4332;
-jupiter['colour'] = "orangered";
-allPlanets.push(jupiter);
-var saturn = {};
-saturn['name'] = "Saturn";
-saturn['diameter'] = 58.232*2;
-saturn['orbit'] = 1429000*2;
-saturn['year'] = 10760;
-saturn['colour'] = "LightGoldenRodYellow";
-allPlanets.push(saturn);
-var uranus = {};
-uranus['name'] = "Uranus";
-uranus['diameter'] = 25.362*2;
-uranus['orbit'] = 2871000*2;
-uranus['year'] = 30700;
-uranus['colour'] = "LightBlue";
-allPlanets.push(uranus);
-var neptune = {};
-neptune['name'] = "Neptune";
-neptune['diameter'] = 24.622*2;
-neptune['orbit'] = 4504000*2;
-neptune['year'] = 60200;
-neptune['colour'] = "DarkBlue";
-allPlanets.push(neptune);
+mars['mass'] = 639e21;
+mars['period'] = 59356800;
+mars['orbit'] = 228000000*2;
+allPlanets['Mars'] = mars;
 
 var colours = ["AliceBlue","AntiqueWhite","Aqua","Aquamarine","Azure",
             "Beige","Bisque","BlanchedAlmond","Blue","BlueViolet",
@@ -108,30 +82,62 @@ function changeColours() {
 }
 
 function updateDiameter(event) {
-    var planet = document.getElementById(event.target.id.replace("-size", ""));
-    var orbit = document.getElementById(event.target.id.replace("-size", "-orbit"))
-    var orbitSize = window.getComputedStyle(orbit).width.replace("px", "");
-    var newSize = event.target.value;
+    console.log(event.target.id);
+    var planet = allPlanets[event.target.id.replace("-diameter-input", "")];
+    planet['diameter'] = event.target.value;
+    updatePlanets();
+    updateOptionsPanel();
+}
 
-    planet.style.setProperty('width', newSize+"px");
-    planet.style.setProperty('height', newSize+"px");
-    planet.style.setProperty('margin-left', -newSize/2+"px");
-    planet.style.setProperty('margin-top', -(orbitSize/2+newSize/2)+"px");
-    sizeLabel.innerHTML = "Diameter: " + window.getComputedStyle(planet).width;
+function updateOrbit(event) {
+    var planet = allPlanets[event.target.id.replace("-orbit-input", "")];
+    planet['orbit'] = event.target.value;
+    //Calculation gives 1/1000ths of a year, so adjust
+    planet['period'] = Math.pow(4*Math.pow(Math.PI, 2)*Math.pow(planet['orbit']/2, 3)/
+        (G*(sun['mass']+planet['mass'])), 1/2)/1000*3.15569e7;
+    updatePlanets();
+    updateOptionsPanel();
+}
+
+function updatePeriod(event) {
+    var planet = allPlanets[event.target.id.replace("-period-input", "")];
+    planet['period'] = event.target.value*86400;
+    //1000 is because G is in m, not km
+    planet['orbit'] = 2*Math.pow(G*(sun['mass']+planet['mass'])*Math.pow(planet['period'], 2)/
+        (4*Math.pow(Math.PI, 2)), 1/3)/1000;
+    updatePlanets();
+    updateOptionsPanel();
+}
+
+function updateMass(event) {
+    var planet = allPlanets[event.target.id.replace("-mass-input", "")];
+    planet['mass'] = event.target.value;
+    updatePlanets();
+    updateOptionsPanel();
 }
 
 function updateFactor(event) {
-    if (event.target.id == "yearFactor") {
-        yearFactor = event.target.value;
-    } else if (event.target.id == "diameterFactor") {
+    if (event.target.id == "period-factor") {
+        periodFactor = event.target.value;
+    } else if (event.target.id == "diameter-factor") {
         diameterFactor = event.target.value;
-    } else if (event.target.id == "sunDiameterFactor") {
+    } else if (event.target.id == "sun-diameter-factor") {
         sunDiameterFactor = event.target.value;
-    } else if (event.target.id == "orbitFactor") {
+    } else if (event.target.id == "orbit-factor") {
         orbitFactor = event.target.value;
     }
     updatePlanets();
     updateSun();
+}
+
+function showHideSettings(checkbox) {
+    if (checkbox.checked) {
+        var settings = document.getElementById("settings");
+        settings.style.setProperty("display", "none");
+    } else {
+        var settings = document.getElementById("settings");
+        settings.style.setProperty("display", "inline");
+    }
 }
 
 function updateSun() {
@@ -142,100 +148,158 @@ function updateSun() {
         sunDiv.setAttribute("class", "star");
         sunDiv.setAttribute("id", "sun");
     }
-    sunDiv.style.setProperty("width", sun['diameter']*sunDiameterFactor+"px");
-    sunDiv.style.setProperty("height", sun['diameter']*sunDiameterFactor+"px");
-    sunDiv.style.setProperty("margin-top", -sun['diameter']*sunDiameterFactor/2+"px");
-    sunDiv.style.setProperty("margin-left", -sun['diameter']*sunDiameterFactor/2+"px");
+    sunDiv.style.setProperty("width", sun['diameter']/sunDiameterFactor+"px");
+    sunDiv.style.setProperty("height", sun['diameter']/sunDiameterFactor+"px");
+    sunDiv.style.setProperty("margin-top", -sun['diameter']/sunDiameterFactor/2+"px");
+    sunDiv.style.setProperty("margin-left", -sun['diameter']/sunDiameterFactor/2+"px");
     body.appendChild(sunDiv);
 }
 
 function updatePlanets() {
     var body = document.getElementsByTagName("body")[0];
-    for (var i = 0; i < allPlanets.length; ++i) {
-        var dia = allPlanets[i]['diameter']*diameterFactor;
-        var orb = allPlanets[i]['orbit']*orbitFactor;
+    for (var planet in allPlanets) {
+        planet = allPlanets[planet];
+        var dia = planet['diameter']/diameterFactor;
+        var orb = planet['orbit']/orbitFactor;
 
-        var planetDiv = document.getElementById(allPlanets[i]['name'])
+        var planetDiv = document.getElementById(planet['name'])
         if (!planetDiv) {
             var planetDiv = document.createElement("div");
             planetDiv.setAttribute("class", "planet");
-            planetDiv.setAttribute("id", allPlanets[i]['name']);
+            planetDiv.setAttribute("id", planet['name']);
         }
         planetDiv.style.setProperty("width", dia+"px");
         planetDiv.style.setProperty("height", dia+"px");
-        planetDiv.style.setProperty("background-color", allPlanets[i]['colour']);
+        planetDiv.style.setProperty("background-color", planet['colour']);
         planetDiv.style.setProperty("margin-top", -(dia/2+orb/2)+"px");
         planetDiv.style.setProperty("margin-left", -dia/2+"px");
 
-        var orbitDiv = document.getElementById(allPlanets[i]['name']+"-orbit");
+        var orbitDiv = document.getElementById(planet['name']+"-orbit");
         if (!orbitDiv) {
             var orbitDiv = document.createElement("div");
             orbitDiv.setAttribute("class", "orbit");
-            orbitDiv.setAttribute("id", allPlanets[i]['name']+"-orbit");
+            orbitDiv.setAttribute("id", planet['name']+"-orbit");
         }
         orbitDiv.style.setProperty("width", orb+"px");
         orbitDiv.style.setProperty("height", orb+"px");
         orbitDiv.style.setProperty("margin-top", -orb/2+"px");
         orbitDiv.style.setProperty("margin-left", -orb/2+"px");
         orbitDiv.style.setProperty("-webkit-animation-duration",
-            allPlanets[i]['year']*yearFactor+"s");
+            planet['period']/periodFactor+"s");
 
         orbitDiv.appendChild(planetDiv);
         body.appendChild(orbitDiv);
     }
 }
 
-function createOptionPanel() {
-    var planets = document.getElementsByClassName("planet");
-    var controls = document.getElementById("controls");
-    for (var i = 0; i < planets.length; ++i) {
-        var planet = planets[i].getAttribute("id");
+function updateOptionsPanel() {
+    var controls = document.getElementById("settings");
+    for (var planet in allPlanets) {
+        planet = allPlanets[planet];
+        var pName = planet["name"];
 
-        var div = document.createElement("div");
-        div.setAttribute("class", "planet-options");
-        div.setAttribute("id", planet + "-options");
-        div.style.setProperty('background-color',
-            window.getComputedStyle(planets[i]).backgroundColor);
+        var div = document.getElementById(pName + "-options");
+        if (!div) {
+            var div = document.createElement("div");
+            div.setAttribute("class", "planet-options");
+            div.setAttribute("id", pName + "-options");
+        }
+        div.style.setProperty('background-color', planet["colour"]);
 
-        var name = document.createElement("b");
-        name.innerHTML = planet.substr(0,1).toUpperCase() + planet.substr(1);
-        div.appendChild(name);
-        div.appendChild(document.createElement("br"));
+        var e = document.getElementById(pName+"-label");
+        if (!e) {
+            var e = document.createElement("b");
+            e.setAttribute("id", pName+"-label");
+            e.style.setProperty("text-align", "left");
+            e.innerHTML = pName
+            div.appendChild(e);
+            div.appendChild(document.createElement("br"));
+        }
 
-        var label = document.createElement("label");
-        label.setAttribute("id", planet+"-size-label");
-        label.setAttribute("for", planet+"-size");
-        label.innerHTML = "Diameter (km^1000): ";
-        div.appendChild(label);
+        e = document.getElementById(pName+"-diameter-input");
+        if (!e) {
+            e = document.createElement("label");
+            e.setAttribute("for", pName+"-diameter-input");
+            e.innerHTML = "Diameter (km):";
+            div.appendChild(e);
+            e = document.createElement("input");
+            e.setAttribute("type", "number");
+            e.setAttribute("id", pName+"-diameter-input");
+            e.addEventListener("change", updateDiameter);
+            div.appendChild(e);
+            div.appendChild(document.createElement("br"));
+        }
+        e.setAttribute("value", planet['diameter']);
 
-        var input = document.createElement("input");
-        input.setAttribute("type", "number");
-        input.setAttribute("id", planet+"-size");
-        input.setAttribute("value", window.getComputedStyle(planets[i]).width.replace("px", ""));
-        input.style.setProperty("width", "100px");
-        input.addEventListener("change", updateDiameter);
-        div.appendChild(input);
+        e = document.getElementById(pName+"-mass-input");
+        if (!e) {
+            e = document.createElement("label");
+            e.setAttribute("for", pName+"-mass-input");
+            e.innerHTML = "Mass (kg):";
+            div.appendChild(e);
+            e = document.createElement("input");
+            e.setAttribute("type", "number");
+            e.setAttribute("id", pName+"-mass-input");
+            e.addEventListener("change", updateMass);
+            div.appendChild(e);
+            div.appendChild(document.createElement("br"));
+        }
+        e.setAttribute("value", planet['mass']);
+
+        e = document.getElementById(pName+"-period-input");
+        if (!e) {
+            e = document.createElement("label");
+            e.setAttribute("for", pName+"-period-input");
+            e.innerHTML = "Period (days):";
+            div.appendChild(e);
+            e = document.createElement("input");
+            e.setAttribute("type", "number");
+            e.setAttribute("id", pName+"-period-input");
+            e.addEventListener("change", updatePeriod)
+            div.appendChild(e);
+            div.appendChild(document.createElement("br"));
+        }
+        e.setAttribute("value", planet['period']/86400); //display in days
+
+        e = document.getElementById(pName+"-orbit-input");
+        if (!e) {
+            e = document.createElement("label");
+            e.setAttribute("for", pName+"-orbit-input");
+            e.innerHTML = "Orbit diameter (km):";
+            div.appendChild(e);
+            e = document.createElement("input");
+            e.setAttribute("type", "number");
+            e.setAttribute("id", pName+"-orbit-input");
+            e.addEventListener("change", updateOrbit)
+            div.appendChild(e);
+            div.appendChild(document.createElement("br"));
+        }
+        e.setAttribute("value", planet['orbit']);
 
         controls.appendChild(div);
     }
 }
 
 function setup() {
-    var yearFactorInput = document.getElementById("yearFactor");
-    yearFactorInput.setAttribute("value", yearFactor);
-    yearFactorInput.addEventListener("change", updateFactor);
-    var diameterFactorInput = document.getElementById("diameterFactor");
+    var x = window.innerWidth;
+    var y = window.innerHeight;
+
+    var periodFactorInput = document.getElementById("period-factor");
+    periodFactorInput.setAttribute("value", periodFactor);
+    periodFactorInput.addEventListener("change", updateFactor);
+    var diameterFactorInput = document.getElementById("diameter-factor");
     diameterFactorInput.value = diameterFactor;
     diameterFactorInput.addEventListener("change", updateFactor);
-    var orbitFactorInput = document.getElementById("orbitFactor");
+    var orbitFactorInput = document.getElementById("orbit-factor");
     orbitFactorInput.value = orbitFactor;
     orbitFactorInput.addEventListener("change", updateFactor);
-    var sunDiameterFactorInput = document.getElementById("sunDiameterFactor");
+    var sunDiameterFactorInput = document.getElementById("sun-diameter-factor");
     sunDiameterFactorInput.value = sunDiameterFactor;
     sunDiameterFactorInput.addEventListener("change", updateFactor);
+
     updateSun();
     updatePlanets();
-    createOptionPanel();
+    updateOptionsPanel();
 }
 
 window.onload = setup

@@ -4,16 +4,17 @@
         <script type="text/javascript" src="js/planets.js"></script>
     </head>
     <body>
-        <div id="controls">
-            <h2>Planet Options</h2>
-            <span style="font-size:0.7em;">(Factors are multiplied by actual dimensions)</span><br/>
-            <div style="text-align:right;">
-            Year Factor <input type="number" id="yearFactor" style="width:100px;margin:5px;"><br/>
-            Diameter Factor <input type="number" id="diameterFactor" style="width:100px;margin:5px;"><br/>
-            Sun Diameter Factor <input type="number" id="sunDiameterFactor" style="width:100px;margin:5px;"><br/>
-            Orbit Factor <input type="number" id="orbitFactor" style="width:100px;margin:5px;"><br/>
+        <div id="controls-box">
+            <input type="checkbox" value="hideSettings" id="hide-settings" onclick="showHideSettings(this);">
+            <label for="hide-settings" id="hide-settings-label">Hide</label>
+            <div id="settings">
+                <h2>Planet Options</h2>
+                Period: 1s =<input type="number" id="period-factor" min="0">days<br/>
+                Planet Diameter: 1px =<input type="number" id="diameter-factor" min="0">km<br/>
+                Sun Diameter: 1px =<input type="number" id="sun-diameter-factor" min="0">km<br/>
+                Orbit: 1px =<input type="number" id="orbit-factor" min="0">km<br/>
+                <input type="button" value="Randomize Colours" onclick="changeColours();">
             </div>
-            <input type="button" value="Randomize Colours" onclick="changeColours();">
         </div>
         <footer>Sun shown at 1% of actual diameter. Planet size, orbit diameter, and orbit speed are correct relative to one another. Do not use for navigation.</footer>
     </body>
