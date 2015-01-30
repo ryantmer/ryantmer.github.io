@@ -177,7 +177,6 @@ function updatePlanets() {
             var orbitDiv = document.createElement("div");
             orbitDiv.setAttribute("class", "orbit");
             orbitDiv.setAttribute("id", planet.name+"-orbit");
-            body.appendChild(orbitDiv);
         }
         orbitDiv.style.setProperty("width", orb + "px");
         orbitDiv.style.setProperty("height", orb + "px");
@@ -198,6 +197,8 @@ function updatePlanets() {
         planetDiv.style.setProperty("background-color", planet.colour);
         planetDiv.style.setProperty("margin-top", -(dia / 2 + orb / 2) + "px");
         planetDiv.style.setProperty("margin-left", -dia / 2 + "px");
+        
+        body.appendChild(orbitDiv);
     }
 }
 
