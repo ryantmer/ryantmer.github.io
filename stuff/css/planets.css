@@ -25,6 +25,11 @@ input[type="number"] {
     margin: 5px;
 }
 
+input[type="text"] {
+    width: 100px;
+    margin: 5px;
+}
+
 .delete-button {
     display: block;
     border: none;
@@ -94,6 +99,11 @@ input[type="number"] {
     margin: 5px;
     width: 300px;
     padding: 5px;
+}
+
+#add-planet {
+    color: white;
+    background-color: black;
 }
 
 @-webkit-keyframes spin-right {

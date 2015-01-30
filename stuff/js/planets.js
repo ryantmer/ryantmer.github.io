@@ -73,7 +73,7 @@ function updateOrbit(event) {
     var planet = allPlanets[event.target.id.replace("-orbit-input", "")];
 
     planet.orbit = event.target.value;
-    planet.period = Math.pow(4 * Math.pow(Math.PI, 2) * Math.pow((planet.orbit * 1000 / 2), 3) / (G * sun.mass), 1 / 2) / 86400;
+    // planet.period = Math.pow(4 * Math.pow(Math.PI, 2) * Math.pow((planet.orbit * 1000 / 2), 3) / (G * sun.mass), 1 / 2) / 86400;
     updatePlanet(planet.name);
     updatePlanetOptions(planet.name);
 }
@@ -82,7 +82,7 @@ function updatePeriod(event) {
     var planet = allPlanets[event.target.id.replace("-period-input", "")];
 
     planet.period = event.target.value;
-    planet.orbit = 2 * Math.pow(G * sun.mass * Math.pow(planet.period * 86400, 2) / (4 * Math.pow(Math.PI, 2)), 1 / 3) / 1000;
+    // planet.orbit = 2 * Math.pow(G * sun.mass * Math.pow(planet.period * 86400, 2) / (4 * Math.pow(Math.PI, 2)), 1 / 3) / 1000;
     updatePlanet(planet.name);
     updatePlanetOptions(planet.name);
 }
@@ -246,6 +246,25 @@ function createOptionPanel(name) {
     updatePlanetOptions(name);
 }
 
+function addPlanet(event) {
+    var newPlanet = {}
+    newPlanet.diameter = 10000;
+    newPlanet.colour = document.getElementById("new-planet-colour").value;
+    newPlanet.period = 100;
+    newPlanet.orbit = 100000000 * 2;
+    newPlanet.name = document.getElementById("new-planet-name").value;
+    if (allPlanets[newPlanet.name]) {
+        console.log("Planet already exists!");
+        return;
+    }
+    allPlanets[newPlanet.name] = newPlanet;
+    document.getElementById("new-planet-name").value = "";
+    document.getElementById("new-planet-colour").value = "";
+
+    createPlanet(newPlanet.name);
+    createOptionPanel(newPlanet.name);
+}
+
 function deletePlanet(event) {
     var body = document.getElementsByTagName("body")[0],
         settings = document.getElementById("settings");
@@ -275,6 +294,9 @@ function setup() {
     input = document.getElementById("sun-diameter-factor");
     input.value = Math.round(sunDiameterFactor);
     input.addEventListener("change", updateFactor);
+
+    input = document.getElementById("new-planet-button");
+    input.addEventListener("click", addPlanet);
 
     createSun();
 
