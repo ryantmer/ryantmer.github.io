@@ -73,8 +73,7 @@ function updateOrbit(event) {
     var planet = allPlanets[event.target.id.replace("-orbit-input", "")];
 
     planet.orbit = event.target.value;
-    planet.period = Math.pow(4 * Math.pow(Math.PI, 2) * Math.pow((planet.orbit / 2), 3) / (1000 * G * sun.mass), 1 / 2) * 86400;
-    console.log("period " + planet.period + " orbit " + planet.orbit);
+    planet.period = Math.pow(4 * Math.pow(Math.PI, 2) * Math.pow((planet.orbit * 1000 / 2), 3) / (G * sun.mass), 1 / 2) / 86400;
     updatePlanet(planet.name);
     updatePlanetOptions(planet.name);
 }
@@ -84,7 +83,6 @@ function updatePeriod(event) {
 
     planet.period = event.target.value;
     planet.orbit = 2 * Math.pow(G * sun.mass * Math.pow(planet.period * 86400, 2) / (4 * Math.pow(Math.PI, 2)), 1 / 3) / 1000;
-    console.log("orbit " + planet.orbit + " period " + planet.period);
     updatePlanet(planet.name);
     updatePlanetOptions(planet.name);
 }
@@ -117,8 +115,6 @@ function updatePlanet(name) {
         orbitDiv = document.getElementById(name + "-orbit");
         planetDiv = document.getElementById(name);
 
-    console.log("Updating " + planet.name);
-
     orbitDiv.style.setProperty("width", planet.orbit / orbitFactor + "px");
     orbitDiv.style.setProperty("height", planet.orbit / orbitFactor + "px");
     orbitDiv.style.setProperty("margin-top", -planet.orbit / orbitFactor / 2 + "px");
@@ -138,7 +134,6 @@ function updatePlanetOptions(name) {
     var planet = allPlanets[name],
         e;
 
-    console.log("Updating " + name + " options orbit: " + planet.orbit + " period: " + planet.period);
     e = document.getElementById(name + "-diameter-input");
     e.setAttribute("value", Math.round(planet.diameter));
     e = document.getElementById(name + "-period-input");
