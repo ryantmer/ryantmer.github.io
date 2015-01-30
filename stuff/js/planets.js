@@ -208,8 +208,8 @@ function createOptionPanel(name) {
     e = document.createElement("input");
     e.setAttribute("type", "number");
     e.setAttribute("id", planet.name + "-diameter-input");
-    e.setAttribute("step", 1);
-    e.setAttribute("min", 1);
+    e.setAttribute("step", "1");
+    e.setAttribute("min", "1");
     e.addEventListener("change", updateDiameter);
     div.appendChild(e);
 
@@ -223,8 +223,8 @@ function createOptionPanel(name) {
     e = document.createElement("input");
     e.setAttribute("type", "number");
     e.setAttribute("id", planet.name + "-period-input");
-    e.setAttribute("step", 1);
-    e.setAttribute("min", 1);
+    e.setAttribute("step", "1");
+    e.setAttribute("min", "1");
     e.addEventListener("change", updatePeriod)
     div.appendChild(e);
 
@@ -238,8 +238,8 @@ function createOptionPanel(name) {
     e = document.createElement("input");
     e.setAttribute("type", "number");
     e.setAttribute("id", planet.name + "-orbit-input");
-    e.setAttribute("step", 1);
-    e.setAttribute("min", 1);
+    e.setAttribute("step", "100000");
+    e.setAttribute("min", "1");
     e.addEventListener("change", updateOrbit)
     div.appendChild(e);
 
