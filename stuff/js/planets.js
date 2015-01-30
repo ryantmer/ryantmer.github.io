@@ -172,23 +172,12 @@ function updatePlanets() {
         var dia = planet.diameter/diameterFactor;
         var orb = planet.orbit/orbitFactor;
 
-        var planetDiv = document.getElementById(planet.name)
-        if (!planetDiv) {
-            var planetDiv = document.createElement("div");
-            planetDiv.setAttribute("class", "planet");
-            planetDiv.setAttribute("id", planet.name);
-        }
-        planetDiv.style.setProperty("width", dia + "px");
-        planetDiv.style.setProperty("height", dia + "px");
-        planetDiv.style.setProperty("background-color", planet.colour);
-        planetDiv.style.setProperty("margin-top", -(dia / 2 + orb / 2) + "px");
-        planetDiv.style.setProperty("margin-left", -dia / 2 + "px");
-
         var orbitDiv = document.getElementById(planet.name+"-orbit");
         if (!orbitDiv) {
             var orbitDiv = document.createElement("div");
             orbitDiv.setAttribute("class", "orbit");
             orbitDiv.setAttribute("id", planet.name+"-orbit");
+            body.appendChild(orbitDiv);
         }
         orbitDiv.style.setProperty("width", orb + "px");
         orbitDiv.style.setProperty("height", orb + "px");
@@ -196,9 +185,19 @@ function updatePlanets() {
         orbitDiv.style.setProperty("margin-left", -orb / 2 + "px");
         orbitDiv.style.setProperty("-webkit-animation-duration",
             planet.period / periodFactor + "s");
-        orbitDiv.appendChild(planetDiv);
-        body.appendChild(orbitDiv);
 
+        var planetDiv = document.getElementById(planet.name)
+        if (!planetDiv) {
+            var planetDiv = document.createElement("div");
+            planetDiv.setAttribute("class", "planet");
+            planetDiv.setAttribute("id", planet.name);
+            orbitDiv.appendChild(planetDiv);
+        }
+        planetDiv.style.setProperty("width", dia + "px");
+        planetDiv.style.setProperty("height", dia + "px");
+        planetDiv.style.setProperty("background-color", planet.colour);
+        planetDiv.style.setProperty("margin-top", -(dia / 2 + orb / 2) + "px");
+        planetDiv.style.setProperty("margin-left", -dia / 2 + "px");
     }
 }
 
@@ -210,22 +209,25 @@ function updateOptionsPanel() {
 
         var div = document.getElementById(pName + "-options");
         if (!div) {
-            var div = document.createElement("div");
+            div = document.createElement("div");
             div.setAttribute("class", "planet-options");
             div.setAttribute("id", pName + "-options");
+            controls.appendChild(div);
         }
         div.style.setProperty('background-color', planet.colour);
 
-        var e = document.getElementById(pName+"-delete");
-        if (!e) {
-            var e = document.createElement("input");
-            e.setAttribute("type", "button");
-            e.setAttribute("class", "delete-button");
-            e.setAttribute("id", pName+"-delete");
-            e.setAttribute("value", "Remove");
-            e.addEventListener("click", deletePlanet);
-            div.appendChild(e);
-        }
+        //Deleting doesn't work properly yet
+        // var e = document.getElementById(pName+"-delete");
+        // if (!e) {
+        //     var e = document.createElement("input");
+        //     e.setAttribute("type", "button");
+        //     e.setAttribute("class", "delete-button");
+        //     e.setAttribute("id", pName+"-delete");
+        //     e.setAttribute("value", "Remove");
+        //     e.addEventListener("click", deletePlanet);
+        //     div.appendChild(e);
+        // }
+
         var e = document.getElementById(pName+"-label");
         if (!e) {
             var e = document.createElement("b");
@@ -280,8 +282,6 @@ function updateOptionsPanel() {
             div.appendChild(document.createElement("br"));
         }
         e.setAttribute("value", planet.orbit);
-
-        controls.appendChild(div);
     }
 }
 
