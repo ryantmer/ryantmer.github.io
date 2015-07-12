@@ -8,9 +8,11 @@ I'm a person that always has several projects on the go, from day-long sprints t
 
 ## Software/Hardware Projects ##
 
-### Sync for Toodledo ###
+### BlackBerry 10 Apps ###
 
-I've been using [ToodleDo](http://www.toodledo.com) for a couple of years now as a to-do list and task manager. It's got a lot of features that I like, but the available BlackBerry 10 apps that interface with it aren't really to my liking, so I decided to make my own. I'm quite a fan of the Cascades look and feel on BB10, so I made a native app that interfaces with ToodleDo. See [my Sync for Toodledo page](http://www.ryantmer.com/syncfortoodledo) for more info, and to get the app!
+- [Lyrics Search](https://appworld.blackberry.com/webstore/content/59950687) ([source](https://github.com/ryantmer/LyricsSearch))
+- [LCBO Info](https://appworld.blackberry.com/webstore/content/59954039) ([source](https://github.com/ryantmer/LCBOInfo))
+- [Sync for Toodledo](https://appworld.blackberry.com/webstore/content/59942234) ([source](https://github.com/ryantmer/Sync-for-Toodledo))
 
 ### AutoSky ###
 
@@ -34,7 +36,7 @@ This is a confusing bike, since nobody seems to believe that it exists. I'm stil
 
 ### 2002 GMC Yukon XL ###
 
-This Truckosaurus is not fuel efficient, rarely practical, and has crash safety ratings that certainly leave something to be desired. That said, its large size does make it ideal for moving lots of people or stuff, and has already done a half dozen moves for people in the few months that I've had it. Hoping to build a device that reads the OBD-II bus from this vehicle to give more information, such as fuel consumption (which is terrible) and acceleration (which is slow).
+This Truckosaurus is not fuel efficient, rarely practical, and has crash safety ratings that certainly leave something to be desired. That said, its large size does make it ideal for moving lots of people or stuff, and has already done a half dozen moves for people in the short time that I've had it. Hoping to build a device that reads the OBD-II bus from this vehicle to give more information, such as fuel consumption (which is terrible) and acceleration (which is slow).
 
 ## Artistic ##
 
