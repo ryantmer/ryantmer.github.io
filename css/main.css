@@ -73,6 +73,14 @@ a:hover {
   line-height: 56px;
   position: relative;
   z-index: 1;
+  margin-right: 10px;
+}
+
+.site-title-icon {
+  color: #00a0ff;
+}
+.site-title-icon:hover {
+  color: #ff8c00;
 }
 
 .site-nav {

@@ -3,9 +3,11 @@ title: Ryan T. Mahler
 email: ryantmer@gmail.com
 description: "technologies, anomalies, photographies"
 baseurl: ""
-url: "http://ryantmer.com"
+url: "http://www.mahler.ca"
 twitter_username: ryantmer
 github_username:  ryantmer
+facebook_username: ryantmer
+youtube_channelname: channel/UCH-KiusKhG8N7W1Q04E24BA
 
 # Build settings
 markdown: kramdown
