@@ -10,7 +10,7 @@ I'm a person that always has several projects on the go, from day-long sprints t
 
 ### BlackBerry 10 Apps ###
 
-- [Lyrics Search](https://appworld.blackberry.com/webstore/content/59950687) ([source](https://github.com/ryantmer/LyricsSearch))
+- [Lyrics Search](https://appworld.blackberry.com/webstore/content/59950687) ([source](https://github.com/ryantmer/LyricsSearch)) *Unfortunately, the API this used is no longer available, so I removed the app from AppWorld*
 - [LCBO Info](https://appworld.blackberry.com/webstore/content/59954039) ([source](https://github.com/ryantmer/LCBOInfo))
 - [Sync for Toodledo](https://appworld.blackberry.com/webstore/content/59942234) ([source](https://github.com/ryantmer/Sync-for-Toodledo))
 
@@ -28,15 +28,15 @@ I've got a few vehicles that I own and maintain myself. That said, these aren't 
 
 ### 1978 BMW R80/7 ###
 
-While BMWs are reknowned for being reliable and hardy machines (and this one is no different), any 30+-year-old vehicle needs some love to keep running. Fortunately with this machine I've never had any major problems, even after driving it across most of Canada. I'm currently planning to rebuild this motorcycle over the winter of 2014/2015 and really clean and tune everything properly, as it spent a fair number of years in storage until recently.
+While BMWs are reknowned for being reliable and hardy machines (and this one is no different), any 30+-year-old vehicle needs some love to keep running. Fortunately with this machine I've never had any major problems, even after driving it across most of Canada. Over the winter of 2014/2015 I did a full rebuild of the bike, as it spent a fair number of years in storage until recently. Every bolt, nut, gasket and washer came apart, and each was measured, replaced, or restored as required. Ready to ride for another few hundred thousand kilometers!
 
-### 1980 Suzuki GS400 ###
+### 1980 Suzuki GSX400LT ###
 
-This is a confusing bike, since nobody seems to believe that it exists. I'm still not really sure of its origins, but it looks like it may have been an import model, which makes finding parts for it confusing at best. (Fortunately it's very similar to a bunch of other Suzuki bikes of the same era.) This bike has been relatively reliable (especially for a bike bought for $800), but has needed a fair amount of electrical work over the past few years to keep it happy. The goal for the 2014/2015 winter is to tune it so that it can comfortably reach highway speeds again... (Of the original 27 horsepower this bike made, I suspect about half of them have since escaped.)
+This was a confusing bike, as it was sold to me as a 1984 GS400. In reality, it took several years of ownership to figure out that it is actually a GSX400LT, a much less common model. I'm not really sure of its origins, but it looks like it may have been an import model, which makes finding parts for it confusing at best. (Fortunately it's very similar to a bunch of other Suzuki bikes of the same era.) This bike has been relatively reliable (especially for a bike bought for $800), but has needed a fair amount of electrical work over the past few years to keep it happy. I did a top-end rebuild over the summer of 2015, and a more complete rebuild over the winter of 2016/2017, both of which helped improve its performance significatly. (Of the original 27 horsepower this bike made, I suspect about half of them have since escaped.)
 
 ### 2002 GMC Yukon XL ###
 
-This Truckosaurus is not fuel efficient, rarely practical, and has crash safety ratings that certainly leave something to be desired. That said, its large size does make it ideal for moving lots of people or stuff, and has already done a half dozen moves for people in the short time that I've had it. Hoping to build a device that reads the OBD-II bus from this vehicle to give more information, such as fuel consumption (which is terrible) and acceleration (which is slow).
+This Truckosaurus is not fuel efficient, rarely practical, and has crash safety ratings that certainly leave something to be desired. That said, its large size does make it ideal for moving lots of people or stuff, and has done dozens of moves in the time I've had it. Hoping to build a device that reads the OBD-II bus from this vehicle to give more information, such as fuel consumption (which is terrible) and acceleration (which is slow).
 
 ## Artistic ##
 
