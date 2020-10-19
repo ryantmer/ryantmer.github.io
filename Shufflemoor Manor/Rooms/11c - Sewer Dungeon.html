@@ -1,0 +1,35 @@
+<html>
+    <style>
+        /* Do not modify */
+        * {
+            cursor: default;
+        }
+    </style>
+
+    <img id="background" usemap="#hiddenThings">
+
+    <map name="hiddenThings">
+        <!-- Modify away -->
+        <area shape="poly" coords="928,348,946,336,957,355,972,396,954,449,927,516,833,507,809,515,786,508,820,479,885,502,890,463" href="../Items/rags.PNG">
+        <area shape="poly" coords="304,380,321,363,342,380,329,415,341,462,392,509,452,508,496,540,394,547,317,521,286,474,278,410" href="../Items/rags.PNG">
+        <area shape="poly" coords="571,331,576,308,590,325,609,354,614,379,648,392,611,401,575,384" href="../Items/rags.PNG">
+        <area shape="poly" coords="805,425,818,440,846,451,861,440,832,424" href="../Items/trowel.PNG">
+        <area shape="poly" coords="481,332,499,331,524,432,504,438" href="pry bar.html">
+        <area shape="poly" coords="360,458,455,425,449,256,413,221,370,248" onclick="textAlert()">
+    </map>
+
+    <script type="text/javascript">
+        // Do not modify
+        function getBackgroundImage() {
+            return window.location.pathname.split("/").pop().replace(".html", ".png");
+        }
+
+        function textAlert() {
+            // ok you can modify this
+            alert("Go back to another door.");
+        }
+
+        document.getElementById("background").src = getBackgroundImage();
+    </script>
+
+</html>

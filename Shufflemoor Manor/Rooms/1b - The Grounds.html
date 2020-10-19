@@ -1,0 +1,25 @@
+<html>
+    <style>
+        /* Do not modify */
+        * {
+            cursor: default;
+        }
+    </style>
+
+    <img id="background" usemap="#hiddenThings">
+
+    <map name="hiddenThings">
+        <!-- Modify away -->
+        <area shape="rect" coords="4,967,1199,1042" href="1 - The Great Hall.html">
+    </map>
+
+    <script type="text/javascript">
+        // Do not modify
+        function getBackgroundImage() {
+            return window.location.pathname.split("/").pop().replace(".html", ".png");
+        }
+
+        document.getElementById("background").src = getBackgroundImage();
+    </script>
+
+</html>

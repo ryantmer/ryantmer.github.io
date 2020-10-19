@@ -1,0 +1,28 @@
+<html>
+    <style>
+        /* Do not modify */
+        * {
+            cursor: default;
+        }
+    </style>
+
+    <img id="background" usemap="#hiddenThings">
+
+    <map name="hiddenThings">
+        <!-- Modify away -->
+        <area shape="rect" coords="447,274,468,315" href="../Items/torch.PNG">
+        <area shape="rect" coords="747,276,770,314" href="../Items/torch.PNG">
+        <area shape="rect" coords="495,262,713,485" href="1b - The Grounds.html">
+        <area shape="poly" coords="118,141,196,176,204,503,122,525" href="2 - Dining Room.html">
+    </map>
+
+    <script type="text/javascript">
+        // Do not modify
+        function getBackgroundImage() {
+            return window.location.pathname.split("/").pop().replace(".html", ".png");
+        }
+
+        document.getElementById("background").src = getBackgroundImage();
+    </script>
+
+</html>

@@ -1,0 +1,28 @@
+<html>
+    <style>
+        /* Do not modify */
+        * {
+            cursor: default;
+        }
+    </style>
+
+    <img id="background" usemap="#hiddenThings">
+
+    <map name="hiddenThings">
+        <!-- Modify away-->
+        <area shape="poly" coords="215,434,303,414,273,306,245,290,219,301,206,322" onclick="textAlert()">
+    </map>
+
+    <script type="text/javascript">
+        // Do not modify
+        function getBackgroundImage() {
+            return window.location.pathname.split("/").pop().replace(".html", ".png");
+        }
+        function textAlert() {
+            // ok you can modify this
+            alert("The way is shut.");
+        }
+        document.getElementById("background").src = getBackgroundImage();
+    </script>
+
+</html>
