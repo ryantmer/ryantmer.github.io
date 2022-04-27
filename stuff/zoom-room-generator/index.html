@@ -41,6 +41,10 @@ const generateRooms = () => {
         alert('Too many people to fit in that few rooms');
         return;
     }
+    if (new Set(names).size !== names.length) {
+        alert('Please ensure all names are unique');
+        return;
+    }
 
     const peopleMet = {};
     // Initially, people have only met themselves;
