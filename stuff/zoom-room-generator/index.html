@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <h2>Zoom Room Generator</h2>
+        <label for="roomSize">Room Size:</label>
+        <input id="roomSize" type="number" value="4" />
+        <br/>
+        <label for="numberOfRooms">Number of Rooms:</label>
+        <input id="numberOfRooms" type="number" value="2" />
+        <br/>
+        <label for="names">Names:</label>
+        <br/>
+        <textarea id="names" rows=10></textarea>
+        <br/>
+        <button onclick="generateRooms()">Generate</button>
+        <p id="nameList"></p>
+
+        <h3>Room List:</h3>
+        <p id="roomList"></p>
+    </body>
+
+    <script>
+const generateRooms = () => {
+    const names = document.getElementById('names').value.trim().split('\n');
+    const roomSize = Number(document.getElementById('roomSize').value);
+    const numberOfRooms = Number(document.getElementById('numberOfRooms').value);
+
+    if (!Array.isArray(names) || names.length === 0) {
+        alert('Please specify a list of names (one per line)');
+    }
+    if (!roomSize || roomSize === 0) {
+        alert('Please specify a valid room size');
+    }
+    if (!numberOfRooms || numberOfRooms < names % roomSize) {
+        alert('Please specify a valid number of rooms to generate');
+    }
+
+    const peopleMet = {};
+    // Initially, people have only met themselves;
+    names.forEach(key => {
+        peopleMet[key] = new Set();
+        peopleMet[key].add(key);
+    });
+
+    const groups = [];
+    const unavailablePeople = new Set();
+    for (let roomNumber = 0; roomNumber < numberOfRooms; roomNumber++) {
+        console.group(`Generating room number ${roomNumber + 1}`);
+        const group = [];
+
+        for (let i = 0; i < names.length; i++) {
+            const candidate = names[i];
+            console.log(`Considering ${candidate} for addition to group`);
+            if (unavailablePeople.has(candidate)) {
+                console.log(`Candidate ${candidate} is already in a group`);
+                continue;
+            }
+            if (!group.some(groupMember => peopleMet[groupMember].has(candidate))) {
+                console.log(`${candidate} has not met any group members, adding to group`);
+                // Mark this person as met for everybody in the group
+                group.forEach(groupMember => peopleMet[groupMember].add(candidate));
+                group.push(candidate);
+                unavailablePeople.add(candidate);
+            }
+            if (group.length >= roomSize) {
+                break;
+            }
+        }
+
+        // A very arbitrary value, basically just a way to stop an accidental infinite loop below
+        const maxRandomIterations = names.length * 4;
+        let randomIterations = 0;
+        while(group.length < roomSize && randomIterations < maxRandomIterations) {
+            // There are no "hasn't met anybody in the group" candidates left, so just fill it with whoever is available
+            const nextCandidate = names[Math.floor(Math.random() * names.length)];
+            console.log(`Maybe adding ${nextCandidate} to group`);
+            if (!unavailablePeople.has(nextCandidate)) {
+                console.log(`Added ${nextCandidate} to group`);
+                group.push(nextCandidate);
+                unavailablePeople.add(nextCandidate);
+            }
+            randomIterations += 1;
+        }
+
+        console.groupEnd();
+
+        console.log(`Group ${roomNumber + 1} complete`, group);
+        groups.push(group);
+
+        if (unavailablePeople.size === names.length) {
+            // When we've exhausted the name list, start again at the beginning
+            console.log('Ran out of candidates, resetting available candidate list');
+            unavailablePeople.clear();
+        }
+    }
+
+    document.getElementById('roomList').innerHTML = groups.join('<br/>');
+};
+    </script>
+</html>

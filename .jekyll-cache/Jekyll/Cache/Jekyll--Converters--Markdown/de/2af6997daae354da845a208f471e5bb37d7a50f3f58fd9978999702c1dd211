@@ -1,0 +1,4 @@
+I"�<p>For no particular reason, I made a not-at-all accurate planet simulator in JavaScript, <a href="http://mahler.ca/stuff/planets/planets.html">here</a>, with the repo <a href="https://github.com/ryantmer/JSPlanets">here</a>. Because of its heavy reliance on CSS3 animation, some parts don’t work on some browsers. In particular, changing the orbit period doesn’t seem to work on Chrome 40 (although it does in Canary, Chrome 42).</p>
+
+<p>It’s oddly serene to watch it fullscreen.</p>
+:ET
