@@ -27,12 +27,19 @@ const generateRooms = () => {
 
     if (!Array.isArray(names) || names.length === 0) {
         alert('Please specify a list of names (one per line)');
+        return;
     }
     if (!roomSize || roomSize === 0) {
         alert('Please specify a valid room size');
+        return;
     }
     if (!numberOfRooms || numberOfRooms < names % roomSize) {
         alert('Please specify a valid number of rooms to generate');
+        return;
+    }
+    if (numberOfRooms * roomSize < names.length) {
+        alert('Too many people to fit in that few rooms');
+        return;
     }
 
     const peopleMet = {};
