@@ -12,4 +12,4 @@ Most of my coding hours having been spent learning and using node, Polymer web c
 
 In addition to writing code and soldering circuits, I also enjoy a plethora of other, unrelated things. Road and mountain biking, photography, camping and canoeing, speed skating, dodgeball, playing music, going to concerts, theatre, web development, and riding and repairing old motorcycles. I'm not afraid to get my hands dirty, to speak up, and to admit that, yes, I like pop punk music.
 
-If you have any questions about who I am, how I am, what I do, or what the advantages and disadvantages of shaft drive are compared to chain drive, please don't hesitate to contact me via [email](mailto:ryantmer@gmail.com) or [Twitter](https://twitter.com/ryantmer). And hey... have an awesome day, because you're awesome.
+If you have any questions about who I am, how I am, what I do, or what the advantages and disadvantages of shaft drive are compared to chain drive, please don't hesitate to contact me via [email](mailto:ryantmer@gmail.com). And hey... have an awesome day, because you're awesome.

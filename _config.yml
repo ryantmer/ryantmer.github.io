@@ -1,7 +1,7 @@
 # Site settings
 title: Ryan T. Mahler
 email: ryantmer@gmail.com
-description: "technologies, anomalies, photographies"
+description: ""
 baseurl: ""
 url: "http://www.mahler.ca"
 twitter_username: ryantmer
@@ -17,7 +17,7 @@ destination: _site
 safe: false
 exclude: []
 include: []
-timezone: America/Toronto
+timezone: America/Vancouver
 
 collections:
     vsromophas:

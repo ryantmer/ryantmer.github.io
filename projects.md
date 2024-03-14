@@ -4,7 +4,7 @@ title: Projects
 permalink: /projects/
 ---
 
-I'm a person that always has several projects on the go, from day-long sprints to multi-year marathons. This is a sort-of-list of some of the things I'm currently working on.
+I'm a person that always has several projects on the go, from day-long sprints to multi-year marathons. This is a sort-of-list of some of the things I am currently working on, or have in the past.
 
 ## Software/Hardware Projects ##
 
