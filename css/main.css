@@ -146,8 +146,7 @@ a:hover {
   color: #828282;
 }
 
-.github-icon-svg,
-.twitter-icon-svg {
+.github-icon-svg {
   display: inline-block;
   width: 16px;
   height: 16px;
