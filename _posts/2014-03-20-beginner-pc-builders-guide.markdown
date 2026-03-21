@@ -16,7 +16,7 @@ In addition, if you're a person that is knowledgeable in this area and likes to 
 
 <!-- more -->
 
-## Case: [Corsair Carbide Series 200R Black Steel / Plastic compact ATX Mid Tower Case][] ##
+## Case: [Corsair Carbide Series 200R Black Steel / Plastic compact ATX Mid Tower Case][]
 
 **Model**
 
@@ -55,7 +55,7 @@ In addition, if you're a person that is knowledgeable in this area and likes to 
 **Features**
 - Not going into detail on these. These vary greatly from case to case. Some highlights of this one include tool-free design (meaning you wouldn't need a screwdriver for a lot of the building process) and cabling management systems, which make routing the various cables an easier process.
 
-## Power Supply: [Antec TruePower Classic series TP-550C 550W 80 PLUS GOLD Certified Power Supply][] ##
+## Power Supply: [Antec TruePower Classic series TP-550C 550W 80 PLUS GOLD Certified Power Supply][]
 
 **Model**
 
@@ -74,7 +74,7 @@ Again, self-explanatory stuff.
 
 - Again, not going to go into these. Power supplies are even less exciting than cases in this regard. (This particular one brags about its capacitors. How enthralling.)
 
-## Motherboard: [GIGABYTE GA-970A-UD3 AM3+ AMD 970 + SB950 SATA 6Gb/s USB 3.0 ATX AMD Motherboard][] ##
+## Motherboard: [GIGABYTE GA-970A-UD3 AM3+ AMD 970 + SB950 SATA 6Gb/s USB 3.0 ATX AMD Motherboard][]
 
 *Finally, getting into the interesting stuff!*
 
@@ -133,7 +133,7 @@ Again, self-explanatory stuff.
 - Dimensions - 12.0" x 9.6": Obvious.
 - Power Pin - 24 Pin: Back in the day, some were 20 Pin. "Back in the day" being like... 1998.
 
-## CPU: [AMD FX-4130 Zambezi 3.8GHz Socket AM3+ Quad-Core Desktop Processor FD4130FRGUBOX][] ##
+## CPU: [AMD FX-4130 Zambezi 3.8GHz Socket AM3+ Quad-Core Desktop Processor FD4130FRGUBOX][]
 
 **Model**
 
@@ -157,7 +157,7 @@ Again, self-explanatory stuff.
 - Hyper-Transport Support - Yes: *These*
 - Virtualization Technology Support - Yes: *Things*
 
-## RAM: [G.SKILL Ripjaws Series 8GB (2 x 4GB) 240-Pin DDR3 SDRAM DDR3 1600 (PC3 12800) Desktop Memory Model F3-12800CL9D-8GBRL][] ##
+## RAM: [G.SKILL Ripjaws Series 8GB (2 x 4GB) 240-Pin DDR3 SDRAM DDR3 1600 (PC3 12800) Desktop Memory Model F3-12800CL9D-8GBRL][]
 
 *I hate how convoluted RAM specs are.*
 
@@ -180,7 +180,7 @@ Again, self-explanatory stuff.
 - Multi-channel Kit - Dual Channel Kit: Should match the Channel Supported spec of your motherboard. Not strictly required, but I don't want to start a flame war about the relative merits of this.
 - Heat Spreader - Yes: It's like a radiator for your RAM, because you're that hardcore. (Helps with heat dissipation, most have them.)
 
-## SSD: [SAMSUNG 840 EVO MZ-7TE120BW 2.5" 120GB SATA III TLC Internal Solid State Drive (SSD)][] ##
+## SSD: [SAMSUNG 840 EVO MZ-7TE120BW 2.5" 120GB SATA III TLC Internal Solid State Drive (SSD)][]
 
 *Solid-state drives are more expensive than their mechanical counterparts (hard disk drives, HDDs), but worth the price difference.*
 
@@ -205,7 +205,7 @@ SSDs are fast. Some are faster, some are slower, and this is where the differenc
 - Operating Temperature - 0°C ~ +60°C: Don't boil it, and don't freeze it.
 - Operating Humidity - 5% to 95% RH: Also don't use it in the rain.
 
-## GPU: [SAPPHIRE 100364L Radeon R9 270X 2GB 256-Bit GDDR5 PCI Express 3.0 x16 HDCP Ready CrossFireX Support Video Card][] ##
+## GPU: [SAPPHIRE 100364L Radeon R9 270X 2GB 256-Bit GDDR5 PCI Express 3.0 x16 HDCP Ready CrossFireX Support Video Card][]
 
 *I take it back. GPUs are much, much worse than RAM.*
 
@@ -261,7 +261,7 @@ Each card has about a billion features, and half of them are just marketing fluf
 
 Typically come with some cables to connect it to the power supply and monitor(s).
 
-## Conclusion ##
+## Conclusion
 
 Holy shit, that's everything. This is a very, very summarized view. I tried to give a brief comment on things that are relevant to beginner/novice PC builder to attempt to make it a bit simpler. But it's still pretty goddamn complicated, so I recommend always getting a friend who has experience in the area to give you a hand!
 

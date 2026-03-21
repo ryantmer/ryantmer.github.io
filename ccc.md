@@ -7,15 +7,15 @@ As you'll read in my [about]({{ site.baseurl }}/about) page, I am a firm believe
 
 Note that these are entirely about readability. It's entirely possible to write terrible code while following these rules. But hey, at least it will be easy to read.
 
-### 1. Consistency ###
+### 1. Consistency
 
 A lot of the time, you're editing somebody else's code rather than writing new code. When doing so, be *consistent* with what has already been written. If the previous author is using CamelCase, don't switch\_to\_underscores. It's visually noisy and doesn't help any future developers follow what has been written.
 
-### The Second C - Convention ###
+### The Second C - Convention
 
 Many languages have a style guide that outline basic *conventions* for how code should look. If you're writing new code, or rewriting existing code, this is where you should start. These styles guides don't change often, and this means that any future developers using the consistency guideline will be implicitly following the convention guideline as well!
 
-### iii) Compulsion ###
+### iii) Compulsion
 
 Finally, if you're writing new code in a language that doesn't have a clearly-defined style guide (\*cough\*Java\*cough\*), then use your own *compulsion* to determine style. That said, be consistent to yourself in this case. Don't change from UPPERCASE to \_leading\_underscore for constants halfway through.
 

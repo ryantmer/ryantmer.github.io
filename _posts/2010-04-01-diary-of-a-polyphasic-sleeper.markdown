@@ -13,7 +13,7 @@ One weekend, I did not have any naps, as I spent it in Guelph. Fortunately, I ha
 
 I also have noted that I became quite good at training myself to wake up without an alarm. Although I always set one as a backup, during my half-hour naps I would generally wake up one or two minutes before it went off. This was not the case in the morning after sleeping 4 hours, though.
 
-### Der Untergang ###
+### Der Untergang
 
 In the last week, since exams are coming up, and assignments are no longer a concern, I decided that I would stop the polyphasic sleep. However, being as I am, I decided to do a quick few experiments before I stopped. One of these includes skipping my first two naps. This was, quite simply, disastrous. I was extremely tired in the afternoon and evening, and my 10pm nap ended up being three hours (meaning I was sleeping for two hours while my clock radio was playing before I woke up - that's how tired I was).
 
@@ -21,7 +21,7 @@ Not really important, but somewhat amusing is that (as I mentioned above) I beca
 
 Today is going to be my first day that I am not going to take a nap in nearly a month. I am quite tired right now, even though it is not even six o'clock and I woke up at 10 this morning. Unfortunately, this means that I will not have a very effective evening of studying, as I am finding it extremely hard to focus. Hopefully after a good night's sleep tonight, tomorrow will be more conducive towards studying.
 
-### Das Ende ###
+### Das Ende
 
 Being the scientific (well, Engineering) mind that I am, I did this not only as a way to increase available time, but as a sort of experiment. Some conclusions:
 
